@@ -1,0 +1,292 @@
+.text-blue { color:#020065;}
+.bg-blue { background:#020065;}
+
+.bg-vruumz { background:#1a2935!important;}
+.bg-red { background:#E31921!important;}
+.text-vruumz { color:#A6191E!important;}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #fff;
+	color: #fff;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-title {
+	color: #fff;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-icon i {
+	color: #fff;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-active-bg-vruumz .menu-item .menu-link.active .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active),.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #fff;
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-title,.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-title {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon i,.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-bullet .bullet,.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-arrow:after,.menu-state-bg-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link,.menu-state-bg-vruumz .menu-item.show>.menu-link {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #fff;
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-title,.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-title {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-icon i,.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-bullet .bullet,.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item.here>.menu-link .menu-arrow:after,.menu-state-bg-vruumz .menu-item.show>.menu-link .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #fff;
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-title {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-state-bg-vruumz .menu-item .menu-link.active .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link,.menu-show-bg-light-vruumz .menu-item.show>.menu-link {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #ecf8ff;
+	color: #fff;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-title,.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-title {
+	color: #fff;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-icon i,.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-icon i {
+	color: #fff;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-bullet .bullet,.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-show-bg-light-vruumz .menu-item.here>.menu-link .menu-arrow:after,.menu-show-bg-light-vruumz .menu-item.show>.menu-link .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23fff'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active),.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) {
+	transition: color .2s ease,background-color .2s ease;
+	background-color: #ecf8ff;
+	color: #fff;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-title,.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-title {
+	color: #fff;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon i,.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon i {
+	color: #fff;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-bullet .bullet,.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-bullet .bullet {
+	background-color: #fff;
+}
+
+.menu-hover-bg-light-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-arrow:after,.menu-hover-bg-light-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-arrow:after {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%23fff'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.93537 4.57889C6.03839 4.77912 6.0191 5.0363 5.87137 5.21403L2.87153 8.82282C2.68598 9.04603 2.36951 9.06026 2.16468 8.8546C1.95985 8.64893 1.94422 8.30126 2.12977 8.07804L4.80594 4.85863L2.15586 1.93583C1.96104 1.72096 1.96165 1.37314 2.15722 1.15895C2.35279 0.944757 2.66927 0.945311 2.86409 1.16018L5.85194 4.45551C5.8859 4.49296 5.91371 4.53459 5.93537 4.57889Z'/%3e%3c/svg%3e");
+}
+
+
+.menu-state-title-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active),.menu-state-title-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) {
+	transition: color .2s ease,background-color .2s ease;
+	color: #fff;
+}
+
+.menu-state-title-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-title,.menu-state-title-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-title {
+	color: #fff;
+}
+
+.menu-state-title-vruumz .menu-item.here>.menu-link,.menu-state-title-vruumz .menu-item.show>.menu-link {
+	transition: color .2s ease,background-color .2s ease;
+	color: #fff;
+}
+
+.menu-state-title-vruumz .menu-item.here>.menu-link .menu-title,.menu-state-title-vruumz .menu-item.show>.menu-link .menu-title {
+	color: #fff;
+}
+
+.menu-state-title-vruumz .menu-item .menu-link.active {
+	transition: color .2s ease,background-color .2s ease;
+	color: #A6191E;
+}
+
+.menu-state-title-vruumz .menu-item .menu-link.active .menu-title {
+	color: #A6191E;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active),.menu-state-icon-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) {
+	transition: color .2s ease,background-color .2s ease;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon i,.menu-state-icon-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-state-icon-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-state-icon-vruumz .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-state-icon-vruumz .menu-item.here>.menu-link,.menu-state-icon-vruumz .menu-item.show>.menu-link {
+	transition: color .2s ease,background-color .2s ease;
+}
+
+.menu-state-icon-vruumz .menu-item.here>.menu-link .menu-icon i,.menu-state-icon-vruumz .menu-item.show>.menu-link .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),.menu-state-icon-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item.here>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g),.menu-state-icon-vruumz .menu-item.show>.menu-link .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link.active {
+	transition: color .2s ease,background-color .2s ease;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link.active .menu-icon i {
+	color: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+	fill: #fff;
+}
+
+.menu-state-icon-vruumz .menu-item .menu-link.active .menu-icon .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+	transition: fill .3s ease;
+}
+
+.menu-title-vruumz .menu-item .menu-link{color:#fff}
+.menu-title-vruumz .menu-item .menu-link .menu-title{color:#fff}

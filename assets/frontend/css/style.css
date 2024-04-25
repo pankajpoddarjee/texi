@@ -1,0 +1,150 @@
+.multi-step-form {border-top: 1px solid #ddd; padding: 25px 0 50px}
+.multi-step-form h1{font-size: 36px; margin-bottom: 15px;}
+.multi-step-form h2{font-size: 30px; margin-bottom: 15px;}
+.multi-step-form h3{font-size: 24px; margin-bottom: 15px;}
+.multi-step-form h4{font-size: 20px; margin-bottom: 15px;}
+.multi-step-form h5{font-size: 18px; margin-bottom: 12px;}
+.multi-step-form h6{font-size: 16px; margin-bottom: 12px;}
+
+.step-1{max-width: 650px; margin: 0 auto}
+.step-2{max-width: 1150px; margin: 0 auto}
+.step-3{max-width: 100%; margin: 0 auto}
+
+#container {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+.progress{
+  position: absolute; 
+  top: 13px;
+  width: 460px;
+  left: 125px;
+}
+.step-container {
+  position: relative;
+  text-align: center;  
+  margin-bottom: 10px;
+}
+.step-circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.3333%;
+}
+.step-circle p{
+  text-align: center
+}
+.step-circle span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff;  
+  color: #fff;
+  line-height: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer; /* Added cursor pointer */
+}
+
+.step-line {
+  position: absolute;
+  top: 16px;
+  left: 50px;
+  width: calc(100% - 100px);
+  height: 2px;
+  background-color: #007bff;
+  z-index: -1;
+}
+
+#multi-step-form{
+  overflow-x: hidden;
+}
+a{text-decoration: none;}
+.multi-step-form .btn{min-height: 42px; padding: 8px 20px; border-radius: 4px}
+/* form css*/
+.form-group{margin-bottom: 20px}
+.form-group label:not(.form-check-label){display: block; margin-bottom: 3px; font-weight: 500; color: #000}
+.form-control{min-height: 42px; border-radius: 4px; border-color: #ddd}
+.form-control:focus, .btn:focus{box-shadow: none;}
+.form-check-input{border: 1px solid #999; cursor: pointer}
+.form-check-label{cursor: pointer}
+.multi-step-form .nav-tabs{border: 0}
+.multi-step-form .nav-tabs .nav-item{margin: 0 5px 0 0;}
+.multi-step-form .nav-tabs .nav-link{margin: 0; font-size: 16px; border: 1px solid #ddd; background: #fff; border-radius: 4px; padding: 10px 20px; color: #777; font-weight: 500}
+.multi-step-form .nav-tabs .nav-link i{font-size: 18px}
+.multi-step-form .nav-tabs .nav-link.active, .multi-step-form .nav-tabs .nav-link:hover{margin: 0; border: 1px solid #ddd; border-radius: 4px; color: rgb(85, 145, 244); background: rgb(238, 244, 255)}
+.passenger-counter a{height: 42px; width: 50px; font-size: 18px;  display: inline-flex; align-items: center; justify-content: center; border: 1px solid #ddd; color: #333; background: #fff; transition: ease-in-out 0.2s}
+.passenger-counter a:hover{color: #0a58ca; background: #f5f5f5}
+.passenger-counter .form-control{height: 42px; width: 70px;}
+.round-pick-up, .round-drop-off{border: 1px solid #ccc; border-radius: 5px; padding: 15px 20px; margin-bottom: 25px}
+.round-pick-up h3, .round-drop-off h3{margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ccc;}
+
+.request-summary{border: 1px solid #ddd; border-radius: 5px; padding: 20px; position: relative}
+.request-summary a{position: absolute; top: 20px; right: 20px;}
+.summary{display: flex; gap: 20px; flex-wrap: wrap}
+.summary p{font-size: 12px; text-transform: uppercase; color: #777; margin-bottom: 4px; font-weight: 500}
+.summary span{font-size: 14px; color: #000}
+
+.vehicle-item{margin: 15px 0; padding: 30px 0 15px;}
+.vehicle-item+.vehicle-item{border-top: 1px solid #ddd}
+.vehicle-item i{font-size: 20px; margin-right: 5px;}
+.vehicle-item p{margin-bottom: 10px}
+small{font-weight: 500; color: #999; font-size: 75%}
+.btn-info{color: #fff!important}
+.review-summary, .review-vehicle, .review-price, .have-trouble{border: 1px solid #ddd; border-radius: 5px; padding: 20px;}
+.review-summary{} 
+.pick-drop{position: relative}
+.pickup,.dropoff{padding-left: 30px; position: relative}
+.font-20{font-size: 20px}
+.font-16, small.font-16{font-size: 16px}
+.normal{font-weight: normal!important}
+.pic-icon, .drop-icon{position: absolute; top: -4px; left: -4px; font-size: 20px;}
+.pic-icon{color: rgb(252, 136, 29);} 
+.pickup:before{content: ''; position: absolute; top: 24px; left: 5px; width: 1px; background: #999; bottom: 0; z-index: 1} 
+.drop-icon{color: rgb(164, 68, 183);}
+.font-14{font-size: 14px;}
+.form-check-inline{margin-right: 1px}
+label.btn{border-radius: 0!important}
+.review-vehicle{}
+
+label.btn-outline-primary{min-height: 38px!important; padding: 6px 18px!important; color: #555!important}
+label.btn-outline-primary:hover{background-color: #0d6efd36!important;color: #000!important}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{background-color: #0d6efd36; color: #000!important}
+.review-price{}
+
+@media (max-width: 575px){
+  .multi-step-form h1{font-size: 30px; margin-bottom: 15px;}
+  .multi-step-form h2{font-size: 27px; margin-bottom: 15px;}
+  .multi-step-form h3{font-size: 22px; margin-bottom: 15px;}
+  .multi-step-form h4{font-size: 18px; margin-bottom: 15px;}
+  .multi-step-form h5{font-size: 17px; margin-bottom: 12px;}
+  .multi-step-form h6{font-size: 16px; margin-bottom: 12px;}
+
+  #container {
+    max-width: 340px;   
+  }
+  .step-circle{
+    justify-content: flex-start
+  }
+  .step-circle p{
+    font-size: 12px;
+    line-height: 1
+  }
+  .progress{ 
+    width: 248px;
+    left: 50px;
+  }
+  .multi-step-form .nav-tabs .nav-link{
+    padding: 8px 14px;
+    font-size: 14px
+  }
+  .review-summary, .review-vehicle, .review-price, .have-trouble{
+    padding: 15px
+  }
+}
+
