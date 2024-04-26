@@ -48,7 +48,7 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div id="tab_1" class="tab-pane active">
                   <div class="form-group">
                     <label>Duration</label>
-                    <select class="form-control" id="duration">
+                    <select class="form-control" id="duration" name="duration">
                       <option value="" selected>Duration</option>
                       <option value="0.5">0.5h</option>
                       <option value="1">1h</option>
@@ -61,7 +61,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="form-group">
                     <label>Order Type</label>
-                    <select class="form-control" id="order_type">
+                    <select class="form-control" id="order_type" name="order_type">
                       <optgroup label="Airport">
                         <option value="Airport Drop Off">Airport Drop Off</option>
                         <option value="Airport Pick Up">Airport Pick Up</option>
@@ -79,7 +79,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="form-group">
                     <label>Date & Time</label>
-                    <input type="datetime-local" class="form-control">
+                    <input type="datetime-local" class="form-control" name="pickup_date_time" id="pickup_date_time">
                   </div>
                   <div class="form-group">
                     <div class="d-flex align-self-center">
@@ -100,7 +100,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
 
                   <div class="form-group">                    
-                    <input type="text" id="searchTextField" class="form-control" placeholder="Address">
+                    <input type="text" id="searchTextField" name="pickup_address" class="form-control" placeholder="Address">
                   </div>
 
                   <div class="form-group text-center">                    
@@ -125,15 +125,19 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                   </div>
                   <div class="form-group">                    
-                    <input type="text" class="form-control" placeholder="Address">
+                    <input type="text" class="form-control" id="dropup_address" name="dropup_address" placeholder="Address">
                   </div>
                   <div class="form-group">                    
                     <div class="d-flex justify-content-between align-items-center">
                       <label>Passenger Count</label>
                       <div class="d-flex passenger-counter">
-                        <a href=""><i class="la la-minus"></i></a>
-                        <input type="number" value="1" class="form-control text-center">
-                        <a href=""><i class="la la-plus"></i></a>
+                        <!-- <a href="javascript:void(0)"><i class="la la-minus"></i></a>
+                        <input type="text" value="1" class="form-control text-center">
+                        <a href="javascript:void(0)" ><i class="la la-plus"></i></a> -->
+
+                        <a href="javascript:void(0)" onclick="document.querySelector('#passenger_count').value=parseInt(document.querySelector('#passenger_count').value)<2?parseInt(document.querySelector('#passenger_count').value):parseInt(document.querySelector('#passenger_count').value)-1">-</a>
+                        <input type="number" name="passenger_count" class="form-control text-center" value="1" id="passenger_count" min="1" max="20" value=0>
+                        <a href="javascript:void(0)" onclick="document.querySelector('#passenger_count').value=parseInt(document.querySelector('#passenger_count').value)>19?parseInt(document.querySelector('#passenger_count').value):parseInt(document.querySelector('#passenger_count').value)+1">+</a>
                       </div>
                     </div>
                   </div>
@@ -723,3 +727,14 @@ var updateProgressBar;
                }
                google.maps.event.addDomListener(window, 'load', initialize);
        </script>
+
+      <script type="text/javascript">
+               function initialize() {
+                       var input = document.getElementById('dropup_address');
+                       var autocomplete = new google.maps.places.Autocomplete(input);
+                       autocomplete.setComponentRestrictions({'country': ['aus']});
+               }
+               google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
+
+      

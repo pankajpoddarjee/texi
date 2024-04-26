@@ -36,7 +36,8 @@ class Frontend extends FrontendController
     {
        $data = array();		
 		
-               $data['header']['site_title'] = 'Home';
+        $data['header']['site_title'] = 'Home';
+        $data['header']['og_title'] = 'Home';
 		
                  //pr($data['journals']);die();
         $this->load->view('home', $data);

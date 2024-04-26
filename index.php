@@ -64,7 +64,8 @@ if (! defined('ENVIRONMENT')) {
     case 'www.yoursite.tld':
       define('ENVIRONMENT', 'production');
     break;
-    case 'sos-development.com.au':
+    case 'localhost':
+    // case 'sos-development.com.au':
       define('ENVIRONMENT', 'testing');
     break;
     default:
