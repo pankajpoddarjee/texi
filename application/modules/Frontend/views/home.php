@@ -34,16 +34,16 @@ $this->load->view('templates/frontend/main_header', $header);
             <div class="mb-3">              
               <ul class="nav nav-tabs mb-4" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" data-bs-toggle="tab" href="#tab_1"><i class="la la-clock"></i> Hourly</a>
+                  <a class="nav-link active" data-bs-toggle="tab" href="#tab_1" trip-id="1" onclick="document.querySelector('#trip_type').value=1"><i class="la la-clock"></i> Hourly</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab_2"><i class="la la-arrow-right"></i> One Way</a>
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab_2" trip-id="2" onclick="document.querySelector('#trip_type').value=2"><i class="la la-arrow-right"></i> One Way</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab_3"><i class="la la-retweet"></i> Round Trip</a>
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab_3" trip-id="3" onclick="document.querySelector('#trip_type').value=3"><i class="la la-retweet"></i> Round Trip</a>
                 </li>
               </ul>
-
+              <input type="text" name="trip_type" id="trip_type" value="1">
               <div class="tab-content">
                 <div id="tab_1" class="tab-pane active">
                   <div class="form-group">
@@ -57,7 +57,7 @@ $this->load->view('templates/frontend/main_header', $header);
                       <option value="2.5">2.5h</option>
                       <option value="3">3h</option>
                     </select>
-                    <div style="color:red;display:none;" id="error_message_duration">Please Select</div>
+                    <div style="color:red;display:none;" id="error_message_duration">Please select duration</div>
                   </div>
                   <div class="form-group">
                     <label>Order Type</label>
@@ -75,23 +75,24 @@ $this->load->view('templates/frontend/main_header', $header);
                        </optgroup>
                       
                     </select>
-                    <div style="color:red;display:none;" id="error_message_hour_order_type">Please Select</div>
+                    <div style="color:red;display:none;" id="error_message_hour_order_type">Please select order type</div>
                   </div>
                   <div class="form-group">
                     <label>Date & Time</label>
                     <input type="datetime-local" class="form-control" name="hour_pickup_date_time" id="hour_pickup_date_time">
+                    <div style="color:red;display:none;" id="error_message_hour_pickup_date_time">Please select date & time</div>
                   </div>
                   <div class="form-group">
                     <div class="d-flex align-self-center">
                       <label class="align-self-center me-3">Pick-up</label>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type11" checked>
+                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type11" checked value="address">
                         <label class="btn btn-outline-primary" for="hour_pickup_address_type11">
                           Address
                         </label>
                       </div>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type12">
+                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type12" value="airport">
                         <label class="btn btn-outline-primary" for="hour_pickup_address_type12">
                           Airport
                         </label>
@@ -101,6 +102,7 @@ $this->load->view('templates/frontend/main_header', $header);
 
                   <div class="form-group">                    
                     <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address">
+                    <div style="color:red;display:none;" id="error_message_hour_pickup_address">Please select pickup address</div>
                   </div>
 
                   <div class="form-group text-center">                    
@@ -111,13 +113,13 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div class="d-flex">
                       <label class="align-self-center me-3">Drop-off</label>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="hour_dropup_address_type" id="hour_dropup_address_type21" checked>
+                        <input class="btn-check" type="radio" name="hour_dropup_address_type" id="hour_dropup_address_type21" checked value="address">
                         <label class="btn btn-outline-primary" for="hour_dropup_address_type21">
                           Address 
                         </label>
                       </div>
                       <div class="form-check-inline ">
-                        <input class="btn-check" type="radio" name="hour_dropup_address_type" id="hour_dropup_address_type22">
+                        <input class="btn-check" type="radio" name="hour_dropup_address_type" id="hour_dropup_address_type22" value="airport">
                         <label class="btn btn-outline-primary" for="hour_dropup_address_type22">
                           Airport
                         </label>
@@ -127,6 +129,7 @@ $this->load->view('templates/frontend/main_header', $header);
 
                   <div class="form-group">                    
                     <input type="text" class="form-control" id="hour_dropup_address" name="hour_dropup_address" placeholder="Address">
+                    <div style="color:red;display:none;" id="error_message_hour_dropup_address">Please select drop-off address</div>
                   </div>
                   <div class="form-group">                    
                     <div class="d-flex justify-content-between align-items-center">
@@ -139,6 +142,7 @@ $this->load->view('templates/frontend/main_header', $header);
                         <a href="javascript:void(0)" onclick="document.querySelector('#hour_passenger_count').value=parseInt(document.querySelector('#hour_passenger_count').value)<2?parseInt(document.querySelector('#hour_passenger_count').value):parseInt(document.querySelector('#hour_passenger_count').value)-1">-</a>
                         <input type="number" name="hour_passenger_count" class="form-control text-center" value="1" id="hour_passenger_count" min="1" max="20" value=0>
                         <a href="javascript:void(0)" onclick="document.querySelector('#hour_passenger_count').value=parseInt(document.querySelector('#hour_passenger_count').value)>19?parseInt(document.querySelector('#hour_passenger_count').value):parseInt(document.querySelector('#hour_passenger_count').value)+1">+</a>
+                        <div style="color:red;display:none;" id="error_message_hour_passenger_count">Please insert passenger count</div>
                       </div>
                     </div>
                   </div>
@@ -166,18 +170,19 @@ $this->load->view('templates/frontend/main_header', $header);
                   <div class="form-group">
                     <label>Date & Time</label>
                     <input type="datetime-local" class="form-control" name="one_pickup_date_time" id="one_pickup_date_time">
+                    <div style="color:red;display:none;" id="error_message_one_pickup_date_time">Please select date & time</div>
                   </div>
                   <div class="form-group">
                     <div class="d-flex">
                       <label class="align-self-center me-3">Pick-up</label>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="one_pickup_address_type" id="one_pickup_address_type31" checked>
+                        <input class="btn-check" type="radio" name="one_pickup_address_type" id="one_pickup_address_type31" checked value="address">
                         <label class="btn btn-outline-primary" for="one_pickup_address_type31">
                           Address 
                         </label>
                       </div>
                       <div class="form-check-inline ">
-                        <input class="btn-check" type="radio" name="one_pickup_address_type" id="one_pickup_address_type32">
+                        <input class="btn-check" type="radio" name="one_pickup_address_type" id="one_pickup_address_type32" value="airport">
                         <label class="btn btn-outline-primary" for="one_pickup_address_type32">
                           Airport
                         </label>
@@ -187,6 +192,7 @@ $this->load->view('templates/frontend/main_header', $header);
 
                   <div class="form-group">                    
                     <input type="text" class="form-control" placeholder="Address" id="one_pickup_address" name="one_pickup_address">
+                    <div style="color:red;display:none;" id="error_message_one_pickup_address">Please select pickup address</div>
                   </div>
 
                   <div class="form-group text-center">                    
@@ -197,13 +203,13 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div class="d-flex">
                       <label class="align-self-center me-3">Drop-off</label>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="one_dropup_address_type" id="one_dropup_address_type41" checked>
+                        <input class="btn-check" type="radio" name="one_dropup_address_type" id="one_dropup_address_type41" checked value="address">
                         <label class="btn btn-outline-primary" for="one_dropup_address_type41">
                           Address 
                         </label>
                       </div>
                       <div class="form-check-inline ">
-                        <input class="btn-check" type="radio" name="one_dropup_address_type" id="one_dropup_address_type42">
+                        <input class="btn-check" type="radio" name="one_dropup_address_type" id="one_dropup_address_type42" value="airport">
                         <label class="btn btn-outline-primary" for="one_dropup_address_type42">
                           Airport
                         </label>
@@ -212,6 +218,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="form-group">                    
                     <input type="text" class="form-control" placeholder="Address" id="one_dropup_address" name="one_dropup_address">
+                    <div style="color:red;display:none;" id="error_message_one_dropup_address">Please select drop-off address</div>
                   </div>
                   <div class="form-group">                    
                     <div class="d-flex justify-content-between align-items-center">
@@ -220,6 +227,7 @@ $this->load->view('templates/frontend/main_header', $header);
                       <a href="javascript:void(0)" onclick="document.querySelector('#one_passenger_count').value=parseInt(document.querySelector('#one_passenger_count').value)<2?parseInt(document.querySelector('#one_passenger_count').value):parseInt(document.querySelector('#one_passenger_count').value)-1">-</a>
                         <input type="number" name="one_passenger_count" class="form-control text-center" value="1" id="one_passenger_count" min="1" max="20" value=0>
                         <a href="javascript:void(0)" onclick="document.querySelector('#one_passenger_count').value=parseInt(document.querySelector('#one_passenger_count').value)>19?parseInt(document.querySelector('#one_passenger_count').value):parseInt(document.querySelector('#one_passenger_count').value)+1">+</a>
+                        <div style="color:red;display:none;" id="error_message_one_passenger_count">Please insert passenger count</div>
                       </div>
                     </div>
                   </div>                  
@@ -241,24 +249,26 @@ $this->load->view('templates/frontend/main_header', $header);
                       <option>Option 3</option>
                       <option>Option 4</option>
                     </select>
+                    <div style="color:red;display:none;" id="error_message_return_order_type">Please select order Type</div>
                   </div>
                   <div class="round-pick-up">
                     <h3>Round Trip: Pick-Up</h3>
                     <div class="form-group">
                       <label>Date & Time</label>
                       <input type="datetime-local" class="form-control" name="return_one_pickup_date_time" id="return_one_pickup_date_time">
+                      <div style="color:red;display:none;" id="error_message_return_one_pickup_date_time">Please select date & time</div>
                     </div>
                     <div class="form-group">
                       <div class="d-flex">
                         <label class="align-self-center me-3">Pick-up</label>
                         <div class="form-check-inline">
-                          <input class="btn-check" type="radio" name="return_one_pickup_address_type" id="return_one_pickup_address_type51" checked>
+                          <input class="btn-check" type="radio" name="return_one_pickup_address_type" id="return_one_pickup_address_type51" checked value="address">
                           <label class="btn btn-outline-primary" for="return_one_pickup_address_type51">
                             Address 
                           </label>
                         </div>
                         <div class="form-check-inline ">
-                          <input class="btn-check" type="radio" name="return_one_pickup_address_type" id="return_one_pickup_address_type52">
+                          <input class="btn-check" type="radio" name="return_one_pickup_address_type" id="return_one_pickup_address_type52" value="airport">
                           <label class="btn btn-outline-primary" for="return_one_pickup_address_type52">
                             Airport
                           </label>
@@ -268,6 +278,7 @@ $this->load->view('templates/frontend/main_header', $header);
 
                     <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_one_pickup_address" name="return_one_pickup_address">
+                      <div style="color:red;display:none;" id="error_message_return_one_pickup_address">Please select pickup address </div>
                     </div>
 
                     <div class="form-group text-center">                    
@@ -278,13 +289,13 @@ $this->load->view('templates/frontend/main_header', $header);
                       <div class="d-flex">
                         <label class="align-self-center me-3">Drop-off</label>
                         <div class="form-check-inline">
-                          <input class="btn-check" type="radio" name="return_one_dropup_address_type" id="return_one_dropup_address_type61" checked>
+                          <input class="btn-check" type="radio" name="return_one_dropup_address_type" id="return_one_dropup_address_type61" checked value="address">
                           <label class="btn btn-outline-primary" for="return_one_dropup_address_type61">
                             Address 
                           </label>
                         </div>
                         <div class="form-check-inline ">
-                          <input class="btn-check" type="radio" name="return_one_dropup_address_type" id="return_one_dropup_address_type62">
+                          <input class="btn-check" type="radio" name="return_one_dropup_address_type" id="return_one_dropup_address_type62" value="airport">
                           <label class="btn btn-outline-primary" for="return_one_dropup_address_type62">
                             Airport
                           </label>
@@ -293,6 +304,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                     <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_one_dropup_address" name="return_one_dropup_address">
+                      <div style="color:red;display:none;" id="error_message_return_one_dropup_address">Please select drop-off address</div>
                     </div>
                     <div class="form-group mb-0">                    
                       <div class="d-flex justify-content-between align-items-center">
@@ -301,6 +313,7 @@ $this->load->view('templates/frontend/main_header', $header);
                         <a href="javascript:void(0)" onclick="document.querySelector('#return_one_passenger_count').value=parseInt(document.querySelector('#return_one_passenger_count').value)<2?parseInt(document.querySelector('#return_one_passenger_count').value):parseInt(document.querySelector('#return_one_passenger_count').value)-1">-</a>
                         <input type="number" name="return_one_passenger_count" class="form-control text-center" value="1" id="return_one_passenger_count" min="1" max="20" value=0>
                         <a href="javascript:void(0)" onclick="document.querySelector('#return_one_passenger_count').value=parseInt(document.querySelector('#return_one_passenger_count').value)>19?parseInt(document.querySelector('#return_one_passenger_count').value):parseInt(document.querySelector('#return_one_passenger_count').value)+1">+</a>
+                        <div style="color:red;display:none;" id="error_message_return_one_passenger_count">Please insert passenger count</div>
                         </div>
                       </div>
                     </div>
@@ -311,18 +324,19 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div class="form-group">
                       <label>Date & Time</label>
                       <input type="datetime-local" class="form-control" name="return_two_pickup_date_time" id="return_two_pickup_date_time">
+                      <div style="color:red;display:none;" id="error_message_return_two_pickup_date_time">Please select date & time</div>
                     </div>
                     <div class="form-group">
                       <div class="d-flex">
                         <label class="align-self-center me-3">Pick-up</label>
                         <div class="form-check-inline">
-                          <input class="btn-check" type="radio" name="return_two_pickup_address_type" id="return_two_pickup_address_type71" checked>
+                          <input class="btn-check" type="radio" name="return_two_pickup_address_type" id="return_two_pickup_address_type71" checked value="address">
                           <label class="btn btn-outline-primary" for="return_two_pickup_address_type71">
                             Address 
                           </label>
                         </div>
                         <div class="form-check-inline ">
-                          <input class="btn-check" type="radio" name="return_two_pickup_address_type" id="return_two_pickup_address_type72">
+                          <input class="btn-check" type="radio" name="return_two_pickup_address_type" id="return_two_pickup_address_type72" value="airport">
                           <label class="btn btn-outline-primary" for="return_two_pickup_address_type72">
                             Airport
                           </label>
@@ -332,6 +346,7 @@ $this->load->view('templates/frontend/main_header', $header);
 
                     <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_two_pickup_address" name="return_two_pickup_address">
+                      <div style="color:red;display:none;" id="error_message_return_two_pickup_address">Please select pickup address</div>
                     </div>
 
                     <div class="form-group text-center">                    
@@ -342,13 +357,13 @@ $this->load->view('templates/frontend/main_header', $header);
                       <div class="d-flex">
                         <label class="align-self-center me-3">Drop-off</label>
                         <div class="form-check-inline">
-                          <input class="btn-check" type="radio" name="return_two_dropup_address_type" id="return_two_dropup_address_type81" checked>
+                          <input class="btn-check" type="radio" name="return_two_dropup_address_type" id="return_two_dropup_address_type81" checked value="address">
                           <label class="btn btn-outline-primary" for="return_two_dropup_address_type81">
                             Address 
                           </label>
                         </div>
                         <div class="form-check-inline ">
-                          <input class="btn-check" type="radio" name="return_two_dropup_address_type" id="return_two_dropup_address_type82">
+                          <input class="btn-check" type="radio" name="return_two_dropup_address_type" id="return_two_dropup_address_type82" value="airport">
                           <label class="btn btn-outline-primary" for="return_two_dropup_address_type82">
                             Airport
                           </label>
@@ -357,6 +372,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                     <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_two_dropup_address" name="return_two_dropup_address">
+                      <div style="color:red;display:none;" id="error_message_return_two_dropup_address">Please select drop-off address</div>
                     </div>
                     <div class="form-group mb-0">                    
                       <div class="d-flex justify-content-between align-items-center">
@@ -365,6 +381,7 @@ $this->load->view('templates/frontend/main_header', $header);
                         <a href="javascript:void(0)" onclick="document.querySelector('#return_two_passenger_count').value=parseInt(document.querySelector('#return_two_passenger_count').value)<2?parseInt(document.querySelector('#return_two_passenger_count').value):parseInt(document.querySelector('#return_two_passenger_count').value)-1">-</a>
                         <input type="number" name="return_two_passenger_count" class="form-control text-center" value="1" id="return_two_passenger_count" min="1" max="20" value=0>
                         <a href="javascript:void(0)" onclick="document.querySelector('#return_two_passenger_count').value=parseInt(document.querySelector('#return_two_passenger_count').value)>19?parseInt(document.querySelector('#return_two_passenger_count').value):parseInt(document.querySelector('#return_two_passenger_count').value)+1">+</a>
+                        <div style="color:red;display:none;" id="error_message_return_two_passenger_count">Please insert passenger count</div>
                         </div>
                       </div>
                     </div>
@@ -654,71 +671,7 @@ $this->load->view('templates/frontend/main_header', $header);
 $this->load->view('templates/frontend/footer', $header);
 $this->load->view('templates/frontend/footer_scripts', $header);
 ?>
-<script>
-var currentStep = 1;
-var updateProgressBar;
 
-  function displayStep(stepNumber) {
-    if (stepNumber >= 1 && stepNumber <= 3) {
-      $(".step-" + currentStep).hide();
-      $(".step-" + stepNumber).show();
-      currentStep = stepNumber;
-      updateProgressBar();
-    }
-  }
-
-  $(document).ready(function() {
-    $('#multi-step-form').find('.step').slice(1).hide();
-    
-  
-    $(".next-step").click(function() {
-      var flag = true;
-      var duration         = $("#duration").val();
-      var order_type         = $("#order_type").val();
-      alert(order_type);
-      
-      if(duration=='')
-      { 
-        $("#error_message_duration").show();
-        flag=false;
-      }
-      if(order_type=='')
-      { 
-        $("#error_message_order_type").show();
-        flag=false;
-      }
-      if(flag) 
-      {
-        if (currentStep < 3) {
-          $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
-          currentStep++;
-          setTimeout(function() {
-            $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
-            $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInRight");
-            updateProgressBar();
-          }, 500);
-        }
-      }
-    });
-
-    $(".prev-step").click(function() {
-      if (currentStep > 1) {
-        $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
-        currentStep--;
-        setTimeout(function() {
-          $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
-          $(".step-" + currentStep).show().addClass("animate__animated animate__fadeInLeft");
-          updateProgressBar();
-        }, 500);
-      }
-    });
-
-    updateProgressBar = function() {
-      var progressPercentage = ((currentStep - 1) / 2) * 100;
-      $(".progress-bar").css("width", progressPercentage + "%");
-    }
-  });
-  </script>
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ0FX4PX3pqB6lApllDjzjs3JXgBiNHqc&libraries=places"></script>
         <script type="text/javascript">
                function initialize() {
