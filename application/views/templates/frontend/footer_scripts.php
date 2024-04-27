@@ -55,6 +55,7 @@
 			var return_two_dropup_address_type  =      $("#return_two_dropup_address_type").val();
 			var return_two_dropup_address       =      $("#return_two_dropup_address").val();
 			var return_two_passenger_count      =      $("#return_two_passenger_count").val();
+			
 
 			var trip_type =  $('#trip_type').val();
 		
@@ -90,7 +91,13 @@
 					$("#error_message_hour_passenger_count").show();
 					flag=false;
 				}
-		
+				
+
+				$('#date-time-final').text(hour_pickup_date_time);
+				$('#date-time-review').text(hour_pickup_date_time);
+				$('#pickup-review').text(hour_pickup_address);
+				$('#dropup-review').text(hour_dropup_address);
+				$('#passenger-count-review').text(hour_passenger_count);
 		
 			}else if(trip_type == 2){
 				
@@ -119,6 +126,12 @@
 					$("#error_message_one_passenger_count").show();
 					flag=false;
 				}
+
+				$('#date-time-final').text(one_pickup_date_time);
+				$('#date-time-review').text(one_pickup_date_time);
+				$('#pickup-review').text(one_pickup_address);
+				$('#dropup-review').text(one_dropup_address);
+				$('#passenger-count-review').text(one_passenger_count);
 
 			}else{
 				
@@ -157,7 +170,7 @@
 					$("#error_message_return_one_passenger_count").show();
 					flag=false;
 				}
-				
+
 				if(return_two_pickup_date_time=='')
 				{ 
 					$("#error_message_return_two_pickup_date_time").show();

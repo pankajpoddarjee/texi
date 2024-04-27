@@ -43,7 +43,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   <a class="nav-link" data-bs-toggle="tab" href="#tab_3" trip-id="3" onclick="document.querySelector('#trip_type').value=3"><i class="la la-retweet"></i> Round Trip</a>
                 </li>
               </ul>
-              <input type="text" name="trip_type" id="trip_type" value="1">
+              <input type="hidden" name="trip_type" id="trip_type" value="1">
               <div class="tab-content">
                 <div id="tab_1" class="tab-pane active">
                   <div class="form-group">
@@ -101,8 +101,8 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
 
                   <div class="form-group">                    
-                    <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address">
-                    <div style="color:red;display:none;" id="error_message_hour_pickup_address">Please select pickup address</div>
+                    <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address" >
+                    <div style="color:red;display:none;" id="error_message_hour_pickup_address" >Please select pickup address</div>
                   </div>
 
                   <div class="form-group text-center">                    
@@ -542,7 +542,7 @@ $this->load->view('templates/frontend/main_header', $header);
           </div>
 
           <div class="step step-3">
-            <h2>Mar 11th 2024, 12:31 PM</h2>
+            <h2 id="date-time-final">Mar 11th 2024, 12:31 PM</h2>
             <hr>
             <h3 class="mb-4">Review & Reserve</h3>
             <div class="row">
@@ -553,17 +553,17 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div><span><i class="la la-clock me-1 font-20"></i> 4 Hrs</span> <span class="px-3">|</span> <span><i class="la font-20 la-user me-1"></i> 5</span></div>
                   </div>
                   <p><small>PICK-UP DATE & TIME</small> 
-                    <br>Monday, Mar 11th, 2024 12:30 PM</p>
+                    <br><p id="date-time-review">Monday, Mar 11th, 2024 12:30 PM</p></p>
                   <div class="pick-drop">
                     <div class="pickup pb-3">
                       <span class="pic-icon"><i class="la la-map-marker"></i></span>
                       <p class="mb-2"><small>PICK-UP</small> 
-                        <br>120 Broadway New York, NY, USA</p>                      
+                        <br> <p id="pickup-review">120 Broadway New York, NY, USA</p></p>                      
                     </div>
                     <div class="dropoff mb-3">
                       <span class="drop-icon"><i class="la la-map-marker"></i></span>
                       <p class="mb-2"><small>DROP-OFF</small> 
-                        <br>Juncal 1207 Buenos Aires, Argentina</p>  
+                        <br><p id="dropup-review">Juncal 1207 Buenos Aires, Argentina</p></p>  
                       <p><i class="la la-clock me-1 font-20"></i> 4:30 PM</p>
                     </div>
                   </div>
@@ -574,7 +574,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="row">
                     <div class="col-sm-6 col-lg-3 mb-3">
-                      <p class="m-0"><small>PASSENGER COUNT</small><br>5</p>
+                      <p class="m-0"><small id="passenger-count-review">PASSENGER COUNT</small><br>5</p>
                     </div>
                     <div class="col-sm-6 col-lg-3 mb-3">
                       <p class="m-0"><small>PASSENGER CONTACT</small><br>Lorem ipsum dolor sit</p>
