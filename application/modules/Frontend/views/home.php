@@ -550,7 +550,7 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div class="review-summary mb-4 pb-0">
                   <div class="d-flex align-items-center justify-content-between mb-3">
                     <h5 class="m-0">Hourly</h5>
-                    <div><span><i class="la la-clock me-1 font-20"></i> 4 Hrs</span> <span class="px-3">|</span> <span><i class="la font-20 la-user me-1"></i> 5</span></div>
+                    <div><span><i class="la la-clock me-1 font-20"></i> <span id="duration-review">4 </span> Hrs </span> <span class="px-3">|</span> <span><i class="la font-20 la-user me-1"></i> <span id="passenger-count-icon">5 </span></span></div>
                   </div>
                   <p><small>PICK-UP DATE & TIME</small> 
                     <br><p id="date-time-review">Monday, Mar 11th, 2024 12:30 PM</p></p>
@@ -574,7 +574,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="row">
                     <div class="col-sm-6 col-lg-3 mb-3">
-                      <p class="m-0"><small id="passenger-count-review">PASSENGER COUNT</small><br>5</p>
+                      <p class="m-0"><small >PASSENGER COUNT</small><br><p id="passenger-count-review">5</p></p>
                     </div>
                     <div class="col-sm-6 col-lg-3 mb-3">
                       <p class="m-0"><small>PASSENGER CONTACT</small><br>Lorem ipsum dolor sit</p>

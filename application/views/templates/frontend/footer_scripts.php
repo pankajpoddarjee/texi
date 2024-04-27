@@ -2,6 +2,7 @@
 <!-- JavaScript Libraries -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
 <!-- Template Main Javascript File -->
 <script>
@@ -98,6 +99,13 @@
 				$('#pickup-review').text(hour_pickup_address);
 				$('#dropup-review').text(hour_dropup_address);
 				$('#passenger-count-review').text(hour_passenger_count);
+				$('#passenger-count-icon').text(hour_passenger_count);
+				$('#duration-review').text(duration);
+
+				var hour_date_time = moment(hour_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				console.log(hour_date_time);
+				$('#date-time-final').text(hour_date_time);
+				$('#date-time-review').text(hour_date_time);
 		
 			}else if(trip_type == 2){
 				
@@ -132,6 +140,12 @@
 				$('#pickup-review').text(one_pickup_address);
 				$('#dropup-review').text(one_dropup_address);
 				$('#passenger-count-review').text(one_passenger_count);
+				$('#passenger-count-icon').text(one_passenger_count);
+
+				var one_date_time = moment(one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				console.log(one_date_time);
+				$('#date-time-final').text(one_date_time);
+				$('#date-time-review').text(one_date_time);
 
 			}else{
 				

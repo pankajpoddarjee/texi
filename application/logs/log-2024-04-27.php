@@ -3913,3 +3913,1754 @@ INFO - 2024-04-27 12:11:00 --> Upload Class Initialized
 INFO - 2024-04-27 12:11:00 --> Controller Class Initialized
 ERROR - 2024-04-27 12:11:00 --> 404 Page Not Found: /index
 ERROR - 2024-04-27 12:11:00 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:39:40 --> Config Class Initialized
+INFO - 2024-04-27 13:39:40 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:39:40 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:39:40 --> URI Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:39:40 --> Router Class Initialized
+INFO - 2024-04-27 13:39:40 --> Output Class Initialized
+INFO - 2024-04-27 13:39:40 --> Security Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:39:40 --> Input Class Initialized
+INFO - 2024-04-27 13:39:40 --> Language Class Initialized
+INFO - 2024-04-27 13:39:40 --> Language Class Initialized
+INFO - 2024-04-27 13:39:40 --> Config Class Initialized
+INFO - 2024-04-27 13:39:40 --> Loader Class Initialized
+INFO - 2024-04-27 13:39:40 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:39:40 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:39:40 --> Email Class Initialized
+INFO - 2024-04-27 13:39:40 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:39:40 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:39:40 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:39:40 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:39:40 --> Upload Class Initialized
+INFO - 2024-04-27 13:39:40 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:39:40 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:39:40 --> Final output sent to browser
+DEBUG - 2024-04-27 21:39:40 --> Total execution time: 0.5086
+ERROR - 2024-04-27 21:39:40 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:39:40 --> Config Class Initialized
+INFO - 2024-04-27 13:39:40 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:39:40 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:39:40 --> URI Class Initialized
+INFO - 2024-04-27 13:39:40 --> Router Class Initialized
+INFO - 2024-04-27 13:39:40 --> Output Class Initialized
+INFO - 2024-04-27 13:39:40 --> Security Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:39:40 --> Input Class Initialized
+INFO - 2024-04-27 13:39:40 --> Language Class Initialized
+INFO - 2024-04-27 13:39:40 --> Language Class Initialized
+INFO - 2024-04-27 13:39:40 --> Config Class Initialized
+INFO - 2024-04-27 13:39:40 --> Loader Class Initialized
+INFO - 2024-04-27 13:39:40 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:39:40 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:39:40 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:39:40 --> Email Class Initialized
+INFO - 2024-04-27 13:39:40 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:39:40 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:39:40 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:39:40 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:39:40 --> Upload Class Initialized
+INFO - 2024-04-27 13:39:40 --> Controller Class Initialized
+ERROR - 2024-04-27 13:39:40 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:39:40 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:39:40 --> Config Class Initialized
+INFO - 2024-04-27 13:39:40 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:39:41 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:39:41 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:39:41 --> URI Class Initialized
+INFO - 2024-04-27 13:39:41 --> Router Class Initialized
+INFO - 2024-04-27 13:39:41 --> Output Class Initialized
+INFO - 2024-04-27 13:39:41 --> Security Class Initialized
+DEBUG - 2024-04-27 13:39:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:39:41 --> Input Class Initialized
+INFO - 2024-04-27 13:39:41 --> Language Class Initialized
+INFO - 2024-04-27 13:39:41 --> Language Class Initialized
+INFO - 2024-04-27 13:39:41 --> Config Class Initialized
+INFO - 2024-04-27 13:39:41 --> Loader Class Initialized
+INFO - 2024-04-27 13:39:41 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:39:41 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:39:41 --> Email Class Initialized
+INFO - 2024-04-27 13:39:41 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:39:41 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:39:41 --> Config Class Initialized
+INFO - 2024-04-27 13:39:41 --> Hooks Class Initialized
+INFO - 2024-04-27 13:39:41 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:39:41 --> User_agent class already loaded. Second attempt ignored.
+DEBUG - 2024-04-27 13:39:41 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:39:41 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:39:41 --> Upload Class Initialized
+INFO - 2024-04-27 13:39:41 --> Controller Class Initialized
+INFO - 2024-04-27 13:39:41 --> URI Class Initialized
+ERROR - 2024-04-27 13:39:41 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:39:41 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:39:41 --> Router Class Initialized
+INFO - 2024-04-27 13:39:41 --> Output Class Initialized
+INFO - 2024-04-27 13:39:41 --> Security Class Initialized
+DEBUG - 2024-04-27 13:39:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:39:41 --> Input Class Initialized
+INFO - 2024-04-27 13:39:41 --> Language Class Initialized
+INFO - 2024-04-27 13:39:41 --> Language Class Initialized
+INFO - 2024-04-27 13:39:41 --> Config Class Initialized
+INFO - 2024-04-27 13:39:41 --> Loader Class Initialized
+INFO - 2024-04-27 13:39:41 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:39:41 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:39:41 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:39:41 --> Email Class Initialized
+INFO - 2024-04-27 13:39:41 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:39:41 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:39:41 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:39:41 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:39:41 --> Upload Class Initialized
+INFO - 2024-04-27 13:39:41 --> Controller Class Initialized
+ERROR - 2024-04-27 13:39:41 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:39:41 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:41:51 --> Config Class Initialized
+INFO - 2024-04-27 13:41:51 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:41:51 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:41:51 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:41:51 --> URI Class Initialized
+DEBUG - 2024-04-27 13:41:51 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:41:51 --> Router Class Initialized
+INFO - 2024-04-27 13:41:51 --> Output Class Initialized
+INFO - 2024-04-27 13:41:51 --> Security Class Initialized
+DEBUG - 2024-04-27 13:41:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:41:51 --> Input Class Initialized
+INFO - 2024-04-27 13:41:51 --> Language Class Initialized
+INFO - 2024-04-27 13:41:51 --> Language Class Initialized
+INFO - 2024-04-27 13:41:51 --> Config Class Initialized
+INFO - 2024-04-27 13:41:51 --> Loader Class Initialized
+INFO - 2024-04-27 13:41:51 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:41:51 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:41:51 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:41:51 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:41:51 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:41:51 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:41:51 --> Email Class Initialized
+INFO - 2024-04-27 13:41:51 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:41:51 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:41:51 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:41:51 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:41:51 --> Upload Class Initialized
+INFO - 2024-04-27 13:41:51 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:41:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:41:52 --> Final output sent to browser
+DEBUG - 2024-04-27 21:41:52 --> Total execution time: 0.0873
+ERROR - 2024-04-27 21:41:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:41:52 --> Config Class Initialized
+INFO - 2024-04-27 13:41:52 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:41:52 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:41:52 --> URI Class Initialized
+INFO - 2024-04-27 13:41:52 --> Config Class Initialized
+INFO - 2024-04-27 13:41:52 --> Hooks Class Initialized
+INFO - 2024-04-27 13:41:52 --> Router Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:41:52 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:41:52 --> Output Class Initialized
+INFO - 2024-04-27 13:41:52 --> URI Class Initialized
+INFO - 2024-04-27 13:41:52 --> Security Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:41:52 --> Input Class Initialized
+INFO - 2024-04-27 13:41:52 --> Language Class Initialized
+INFO - 2024-04-27 13:41:52 --> Router Class Initialized
+INFO - 2024-04-27 13:41:52 --> Language Class Initialized
+INFO - 2024-04-27 13:41:52 --> Config Class Initialized
+INFO - 2024-04-27 13:41:52 --> Output Class Initialized
+INFO - 2024-04-27 13:41:52 --> Security Class Initialized
+INFO - 2024-04-27 13:41:52 --> Loader Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:41:52 --> Input Class Initialized
+INFO - 2024-04-27 13:41:52 --> Language Class Initialized
+INFO - 2024-04-27 13:41:52 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:41:52 --> Language Class Initialized
+INFO - 2024-04-27 13:41:52 --> Config Class Initialized
+INFO - 2024-04-27 13:41:52 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:41:52 --> Loader Class Initialized
+INFO - 2024-04-27 13:41:52 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:41:52 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:41:52 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:41:52 --> Email Class Initialized
+INFO - 2024-04-27 13:41:52 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:41:52 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:41:52 --> Email Class Initialized
+INFO - 2024-04-27 13:41:52 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:41:52 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:41:52 --> Upload Class Initialized
+INFO - 2024-04-27 13:41:52 --> Controller Class Initialized
+ERROR - 2024-04-27 13:41:52 --> 404 Page Not Found: /index
+INFO - 2024-04-27 13:41:52 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:41:52 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:41:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:41:52 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:41:52 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:41:52 --> Upload Class Initialized
+INFO - 2024-04-27 13:41:52 --> Controller Class Initialized
+ERROR - 2024-04-27 13:41:52 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:41:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:42:34 --> Config Class Initialized
+INFO - 2024-04-27 13:42:34 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:42:34 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:42:34 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:42:34 --> URI Class Initialized
+INFO - 2024-04-27 13:42:34 --> Router Class Initialized
+INFO - 2024-04-27 13:42:34 --> Output Class Initialized
+INFO - 2024-04-27 13:42:34 --> Security Class Initialized
+DEBUG - 2024-04-27 13:42:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:42:34 --> Input Class Initialized
+INFO - 2024-04-27 13:42:34 --> Language Class Initialized
+INFO - 2024-04-27 13:42:34 --> Language Class Initialized
+INFO - 2024-04-27 13:42:34 --> Config Class Initialized
+INFO - 2024-04-27 13:42:34 --> Loader Class Initialized
+INFO - 2024-04-27 13:42:34 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:42:34 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:42:34 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:42:34 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:42:34 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:42:34 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:42:34 --> Email Class Initialized
+INFO - 2024-04-27 13:42:34 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:42:34 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:42:34 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:42:34 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:42:34 --> Upload Class Initialized
+INFO - 2024-04-27 13:42:34 --> Controller Class Initialized
+ERROR - 2024-04-27 13:42:34 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:42:34 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:44:33 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:44:33 --> URI Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:44:33 --> Router Class Initialized
+INFO - 2024-04-27 13:44:33 --> Output Class Initialized
+INFO - 2024-04-27 13:44:33 --> Security Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:44:33 --> Input Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Loader Class Initialized
+INFO - 2024-04-27 13:44:33 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:44:33 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:44:33 --> Email Class Initialized
+INFO - 2024-04-27 13:44:33 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:44:33 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:44:33 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:44:33 --> Upload Class Initialized
+INFO - 2024-04-27 13:44:33 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:44:33 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:44:33 --> Final output sent to browser
+DEBUG - 2024-04-27 21:44:33 --> Total execution time: 0.0863
+ERROR - 2024-04-27 21:44:33 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:44:33 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:44:33 --> URI Class Initialized
+INFO - 2024-04-27 13:44:33 --> Router Class Initialized
+INFO - 2024-04-27 13:44:33 --> Output Class Initialized
+INFO - 2024-04-27 13:44:33 --> Security Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:44:33 --> Input Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Loader Class Initialized
+INFO - 2024-04-27 13:44:33 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:44:33 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:44:33 --> Email Class Initialized
+INFO - 2024-04-27 13:44:33 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:44:33 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:44:33 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:44:33 --> Upload Class Initialized
+INFO - 2024-04-27 13:44:33 --> Controller Class Initialized
+ERROR - 2024-04-27 13:44:33 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:44:33 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:44:33 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:44:33 --> URI Class Initialized
+INFO - 2024-04-27 13:44:33 --> Router Class Initialized
+INFO - 2024-04-27 13:44:33 --> Output Class Initialized
+INFO - 2024-04-27 13:44:33 --> Security Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:44:33 --> Input Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Language Class Initialized
+INFO - 2024-04-27 13:44:33 --> Config Class Initialized
+INFO - 2024-04-27 13:44:33 --> Loader Class Initialized
+INFO - 2024-04-27 13:44:33 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:44:33 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:44:33 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:44:33 --> Email Class Initialized
+INFO - 2024-04-27 13:44:33 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:44:33 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:44:33 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:44:33 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:44:33 --> Upload Class Initialized
+INFO - 2024-04-27 13:44:33 --> Controller Class Initialized
+ERROR - 2024-04-27 13:44:33 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:44:33 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:37 --> Config Class Initialized
+INFO - 2024-04-27 13:45:37 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:37 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:37 --> URI Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:45:37 --> Router Class Initialized
+INFO - 2024-04-27 13:45:37 --> Output Class Initialized
+INFO - 2024-04-27 13:45:37 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:37 --> Input Class Initialized
+INFO - 2024-04-27 13:45:37 --> Language Class Initialized
+INFO - 2024-04-27 13:45:37 --> Language Class Initialized
+INFO - 2024-04-27 13:45:37 --> Config Class Initialized
+INFO - 2024-04-27 13:45:37 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:37 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:37 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:37 --> Email Class Initialized
+INFO - 2024-04-27 13:45:37 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:45:37 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:37 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:37 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:37 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:37 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:45:37 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:45:37 --> Final output sent to browser
+DEBUG - 2024-04-27 21:45:37 --> Total execution time: 0.1362
+ERROR - 2024-04-27 21:45:37 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:37 --> Config Class Initialized
+INFO - 2024-04-27 13:45:37 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:37 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:37 --> URI Class Initialized
+INFO - 2024-04-27 13:45:37 --> Router Class Initialized
+INFO - 2024-04-27 13:45:37 --> Output Class Initialized
+INFO - 2024-04-27 13:45:37 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:37 --> Input Class Initialized
+INFO - 2024-04-27 13:45:37 --> Language Class Initialized
+INFO - 2024-04-27 13:45:37 --> Language Class Initialized
+INFO - 2024-04-27 13:45:37 --> Config Class Initialized
+INFO - 2024-04-27 13:45:37 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:37 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:37 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:37 --> Config Class Initialized
+INFO - 2024-04-27 13:45:37 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:45:37 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:37 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:37 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:37 --> URI Class Initialized
+INFO - 2024-04-27 13:45:37 --> Router Class Initialized
+INFO - 2024-04-27 13:45:38 --> Email Class Initialized
+INFO - 2024-04-27 13:45:38 --> Output Class Initialized
+INFO - 2024-04-27 13:45:38 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:38 --> Input Class Initialized
+INFO - 2024-04-27 13:45:38 --> Language Class Initialized
+INFO - 2024-04-27 13:45:38 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:38 --> Language Class Initialized
+INFO - 2024-04-27 13:45:38 --> Config Class Initialized
+INFO - 2024-04-27 13:45:38 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:38 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:38 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:38 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:38 --> Controller Class Initialized
+INFO - 2024-04-27 13:45:38 --> Helper loaded: custom_helper
+ERROR - 2024-04-27 13:45:38 --> 404 Page Not Found: /index
+INFO - 2024-04-27 13:45:38 --> Helper loaded: url_helper
+ERROR - 2024-04-27 13:45:38 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:38 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:38 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:38 --> Email Class Initialized
+INFO - 2024-04-27 13:45:38 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:38 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:38 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:38 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:38 --> Controller Class Initialized
+ERROR - 2024-04-27 13:45:38 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:45:38 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:38 --> Config Class Initialized
+INFO - 2024-04-27 13:45:38 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:38 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:38 --> URI Class Initialized
+INFO - 2024-04-27 13:45:38 --> Router Class Initialized
+INFO - 2024-04-27 13:45:38 --> Output Class Initialized
+INFO - 2024-04-27 13:45:38 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:38 --> Input Class Initialized
+INFO - 2024-04-27 13:45:38 --> Language Class Initialized
+INFO - 2024-04-27 13:45:38 --> Language Class Initialized
+INFO - 2024-04-27 13:45:38 --> Config Class Initialized
+INFO - 2024-04-27 13:45:38 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:38 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:38 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:38 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:38 --> Email Class Initialized
+INFO - 2024-04-27 13:45:38 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:38 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:38 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:38 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:38 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:38 --> Controller Class Initialized
+ERROR - 2024-04-27 13:45:38 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:45:38 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+INFO - 2024-04-27 13:45:55 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:55 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:55 --> URI Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:45:55 --> Router Class Initialized
+INFO - 2024-04-27 13:45:55 --> Output Class Initialized
+INFO - 2024-04-27 13:45:55 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:55 --> Input Class Initialized
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+INFO - 2024-04-27 13:45:55 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:55 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:55 --> Email Class Initialized
+INFO - 2024-04-27 13:45:55 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:55 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:55 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:55 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:55 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:45:55 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:45:55 --> Final output sent to browser
+DEBUG - 2024-04-27 21:45:55 --> Total execution time: 0.0691
+ERROR - 2024-04-27 21:45:55 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+INFO - 2024-04-27 13:45:55 --> Hooks Class Initialized
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:55 --> Hooks Class Initialized
+INFO - 2024-04-27 13:45:55 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:45:55 --> URI Class Initialized
+INFO - 2024-04-27 13:45:55 --> Router Class Initialized
+INFO - 2024-04-27 13:45:55 --> Output Class Initialized
+INFO - 2024-04-27 13:45:55 --> Security Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:45:55 --> Utf8 Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:55 --> Input Class Initialized
+INFO - 2024-04-27 13:45:55 --> URI Class Initialized
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+INFO - 2024-04-27 13:45:55 --> Router Class Initialized
+INFO - 2024-04-27 13:45:55 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:55 --> Output Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:55 --> Security Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: file_helper
+DEBUG - 2024-04-27 13:45:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:45:55 --> Input Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:55 --> Language Class Initialized
+INFO - 2024-04-27 13:45:55 --> Config Class Initialized
+INFO - 2024-04-27 13:45:55 --> Loader Class Initialized
+INFO - 2024-04-27 13:45:55 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:45:55 --> Email Class Initialized
+INFO - 2024-04-27 13:45:55 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:45:55 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:45:55 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:55 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:45:55 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:55 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:55 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:55 --> Controller Class Initialized
+ERROR - 2024-04-27 13:45:55 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:45:55 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:45:55 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:45:55 --> Email Class Initialized
+INFO - 2024-04-27 13:45:55 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:45:55 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:45:55 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:45:55 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:45:55 --> Upload Class Initialized
+INFO - 2024-04-27 13:45:55 --> Controller Class Initialized
+ERROR - 2024-04-27 13:45:55 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:45:55 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:25 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:25 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:25 --> Router Class Initialized
+INFO - 2024-04-27 13:46:25 --> Output Class Initialized
+INFO - 2024-04-27 13:46:25 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:25 --> Input Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:25 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:25 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:25 --> Email Class Initialized
+INFO - 2024-04-27 13:46:25 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:25 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:25 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:25 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:25 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:25 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:25 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:25 --> Total execution time: 0.1352
+ERROR - 2024-04-27 21:46:25 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:25 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:25 --> URI Class Initialized
+INFO - 2024-04-27 13:46:25 --> Router Class Initialized
+INFO - 2024-04-27 13:46:25 --> Output Class Initialized
+INFO - 2024-04-27 13:46:25 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:25 --> Input Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:25 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:25 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:25 --> Email Class Initialized
+INFO - 2024-04-27 13:46:25 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:25 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:25 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:25 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:25 --> Controller Class Initialized
+ERROR - 2024-04-27 13:46:25 --> 404 Page Not Found: /index
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Hooks Class Initialized
+ERROR - 2024-04-27 13:46:25 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+DEBUG - 2024-04-27 13:46:25 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:25 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:25 --> URI Class Initialized
+INFO - 2024-04-27 13:46:25 --> Router Class Initialized
+INFO - 2024-04-27 13:46:25 --> Output Class Initialized
+INFO - 2024-04-27 13:46:25 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:25 --> Input Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Language Class Initialized
+INFO - 2024-04-27 13:46:25 --> Config Class Initialized
+INFO - 2024-04-27 13:46:25 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:25 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:25 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:25 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:25 --> Email Class Initialized
+INFO - 2024-04-27 13:46:25 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:25 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:25 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:25 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:25 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:25 --> Controller Class Initialized
+ERROR - 2024-04-27 13:46:25 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:46:25 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.1110
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.6771
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Hooks Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+DEBUG - 2024-04-27 13:46:26 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:26 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:26 --> URI Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+DEBUG - 2024-04-27 13:46:26 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:46:26 --> Router Class Initialized
+INFO - 2024-04-27 13:46:26 --> Output Class Initialized
+INFO - 2024-04-27 13:46:26 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:26 --> Input Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Language Class Initialized
+INFO - 2024-04-27 13:46:26 --> Config Class Initialized
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+INFO - 2024-04-27 13:46:26 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: url_helper
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+INFO - 2024-04-27 13:46:26 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:26 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:26 --> Database Driver Class Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+INFO - 2024-04-27 13:46:26 --> Email Class Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.3941
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.2665
+INFO - 2024-04-27 13:46:26 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.2748
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.1366
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:26 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:26 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:26 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:26 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:46:26 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:46:26 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:46:26 --> Final output sent to browser
+DEBUG - 2024-04-27 21:46:26 --> Total execution time: 0.2007
+ERROR - 2024-04-27 21:46:26 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:46:27 --> Config Class Initialized
+INFO - 2024-04-27 13:46:27 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:27 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:27 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:27 --> URI Class Initialized
+INFO - 2024-04-27 13:46:27 --> Router Class Initialized
+INFO - 2024-04-27 13:46:27 --> Output Class Initialized
+INFO - 2024-04-27 13:46:27 --> Security Class Initialized
+DEBUG - 2024-04-27 13:46:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:27 --> Input Class Initialized
+INFO - 2024-04-27 13:46:27 --> Language Class Initialized
+INFO - 2024-04-27 13:46:27 --> Language Class Initialized
+INFO - 2024-04-27 13:46:27 --> Config Class Initialized
+INFO - 2024-04-27 13:46:27 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:27 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:27 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:27 --> Email Class Initialized
+INFO - 2024-04-27 13:46:27 --> Config Class Initialized
+INFO - 2024-04-27 13:46:27 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:46:27 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:46:27 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:46:27 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:27 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:27 --> URI Class Initialized
+INFO - 2024-04-27 13:46:27 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:27 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:27 --> Router Class Initialized
+INFO - 2024-04-27 13:46:27 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:27 --> Output Class Initialized
+INFO - 2024-04-27 13:46:27 --> Controller Class Initialized
+ERROR - 2024-04-27 13:46:27 --> 404 Page Not Found: /index
+INFO - 2024-04-27 13:46:27 --> Security Class Initialized
+ERROR - 2024-04-27 13:46:27 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+DEBUG - 2024-04-27 13:46:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:46:27 --> Input Class Initialized
+INFO - 2024-04-27 13:46:27 --> Language Class Initialized
+INFO - 2024-04-27 13:46:27 --> Language Class Initialized
+INFO - 2024-04-27 13:46:27 --> Config Class Initialized
+INFO - 2024-04-27 13:46:27 --> Loader Class Initialized
+INFO - 2024-04-27 13:46:27 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:46:27 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:46:27 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:46:27 --> Email Class Initialized
+INFO - 2024-04-27 13:46:27 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:46:27 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:46:27 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:46:27 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:46:27 --> Upload Class Initialized
+INFO - 2024-04-27 13:46:27 --> Controller Class Initialized
+ERROR - 2024-04-27 13:46:27 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:46:27 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:49:22 --> Config Class Initialized
+INFO - 2024-04-27 13:49:22 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:49:22 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:49:22 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:49:22 --> URI Class Initialized
+DEBUG - 2024-04-27 13:49:22 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:49:22 --> Router Class Initialized
+INFO - 2024-04-27 13:49:22 --> Output Class Initialized
+INFO - 2024-04-27 13:49:22 --> Security Class Initialized
+DEBUG - 2024-04-27 13:49:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:49:22 --> Input Class Initialized
+INFO - 2024-04-27 13:49:22 --> Language Class Initialized
+INFO - 2024-04-27 13:49:22 --> Language Class Initialized
+INFO - 2024-04-27 13:49:22 --> Config Class Initialized
+INFO - 2024-04-27 13:49:22 --> Loader Class Initialized
+INFO - 2024-04-27 13:49:22 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:49:22 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:49:22 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:49:22 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:49:22 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:49:22 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:49:22 --> Email Class Initialized
+INFO - 2024-04-27 13:49:22 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:49:22 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:49:22 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:49:22 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:49:22 --> Upload Class Initialized
+INFO - 2024-04-27 13:49:22 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:49:22 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:49:22 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:49:22 --> Final output sent to browser
+DEBUG - 2024-04-27 21:49:22 --> Total execution time: 0.0772
+ERROR - 2024-04-27 21:49:22 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:49:22 --> Config Class Initialized
+INFO - 2024-04-27 13:49:22 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:49:23 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:49:23 --> URI Class Initialized
+INFO - 2024-04-27 13:49:23 --> Config Class Initialized
+INFO - 2024-04-27 13:49:23 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:49:23 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:49:23 --> URI Class Initialized
+INFO - 2024-04-27 13:49:23 --> Router Class Initialized
+INFO - 2024-04-27 13:49:23 --> Router Class Initialized
+INFO - 2024-04-27 13:49:23 --> Output Class Initialized
+INFO - 2024-04-27 13:49:23 --> Security Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:49:23 --> Input Class Initialized
+INFO - 2024-04-27 13:49:23 --> Language Class Initialized
+INFO - 2024-04-27 13:49:23 --> Language Class Initialized
+INFO - 2024-04-27 13:49:23 --> Config Class Initialized
+INFO - 2024-04-27 13:49:23 --> Loader Class Initialized
+INFO - 2024-04-27 13:49:23 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:49:23 --> Output Class Initialized
+INFO - 2024-04-27 13:49:23 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:49:23 --> Security Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:49:23 --> Input Class Initialized
+INFO - 2024-04-27 13:49:23 --> Language Class Initialized
+INFO - 2024-04-27 13:49:23 --> Language Class Initialized
+INFO - 2024-04-27 13:49:23 --> Config Class Initialized
+INFO - 2024-04-27 13:49:23 --> Email Class Initialized
+INFO - 2024-04-27 13:49:23 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:49:23 --> Loader Class Initialized
+INFO - 2024-04-27 13:49:23 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:49:23 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:49:23 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:49:23 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:49:23 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:49:23 --> Upload Class Initialized
+INFO - 2024-04-27 13:49:23 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:49:23 --> Controller Class Initialized
+ERROR - 2024-04-27 13:49:23 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:49:23 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:49:23 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:49:23 --> Email Class Initialized
+INFO - 2024-04-27 13:49:23 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:49:23 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:49:23 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:49:23 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:49:23 --> Upload Class Initialized
+INFO - 2024-04-27 13:49:23 --> Controller Class Initialized
+ERROR - 2024-04-27 13:49:23 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:49:23 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:50:52 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:50:52 --> URI Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:50:52 --> Router Class Initialized
+INFO - 2024-04-27 13:50:52 --> Output Class Initialized
+INFO - 2024-04-27 13:50:52 --> Security Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:50:52 --> Input Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Loader Class Initialized
+INFO - 2024-04-27 13:50:52 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:50:52 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:50:52 --> Email Class Initialized
+INFO - 2024-04-27 13:50:52 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:50:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:50:52 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:50:52 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:50:52 --> Upload Class Initialized
+INFO - 2024-04-27 13:50:52 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:50:52 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:50:52 --> Final output sent to browser
+DEBUG - 2024-04-27 21:50:52 --> Total execution time: 0.2091
+ERROR - 2024-04-27 21:50:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:50:52 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:50:52 --> URI Class Initialized
+INFO - 2024-04-27 13:50:52 --> Router Class Initialized
+INFO - 2024-04-27 13:50:52 --> Output Class Initialized
+INFO - 2024-04-27 13:50:52 --> Security Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:50:52 --> Input Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Loader Class Initialized
+INFO - 2024-04-27 13:50:52 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:50:52 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:50:52 --> Email Class Initialized
+INFO - 2024-04-27 13:50:52 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:50:52 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:50:52 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Hooks Class Initialized
+INFO - 2024-04-27 13:50:52 --> Upload Class Initialized
+INFO - 2024-04-27 13:50:52 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:50:52 --> Utf8 Class Initialized
+ERROR - 2024-04-27 13:50:52 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:50:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:50:52 --> URI Class Initialized
+INFO - 2024-04-27 13:50:52 --> Router Class Initialized
+INFO - 2024-04-27 13:50:52 --> Output Class Initialized
+INFO - 2024-04-27 13:50:52 --> Security Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:50:52 --> Input Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Language Class Initialized
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Loader Class Initialized
+INFO - 2024-04-27 13:50:52 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:50:52 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:50:52 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:50:52 --> Email Class Initialized
+INFO - 2024-04-27 13:50:52 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:50:52 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:50:52 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:50:52 --> Upload Class Initialized
+INFO - 2024-04-27 13:50:52 --> Controller Class Initialized
+ERROR - 2024-04-27 13:50:52 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:50:52 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:50:52 --> Config Class Initialized
+INFO - 2024-04-27 13:50:52 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:50:52 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:50:52 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:50:52 --> URI Class Initialized
+INFO - 2024-04-27 13:50:53 --> Router Class Initialized
+INFO - 2024-04-27 13:50:53 --> Output Class Initialized
+INFO - 2024-04-27 13:50:53 --> Security Class Initialized
+DEBUG - 2024-04-27 13:50:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:50:53 --> Input Class Initialized
+INFO - 2024-04-27 13:50:53 --> Language Class Initialized
+INFO - 2024-04-27 13:50:53 --> Language Class Initialized
+INFO - 2024-04-27 13:50:53 --> Config Class Initialized
+INFO - 2024-04-27 13:50:53 --> Loader Class Initialized
+INFO - 2024-04-27 13:50:53 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:50:53 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:50:53 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:50:53 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:50:53 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:50:53 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:50:53 --> Email Class Initialized
+INFO - 2024-04-27 13:50:53 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:50:53 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:50:53 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:50:53 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:50:53 --> Upload Class Initialized
+INFO - 2024-04-27 13:50:53 --> Controller Class Initialized
+ERROR - 2024-04-27 13:50:53 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:50:53 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:57:27 --> Config Class Initialized
+INFO - 2024-04-27 13:57:27 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:57:27 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:57:27 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:57:27 --> URI Class Initialized
+DEBUG - 2024-04-27 13:57:27 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:57:27 --> Router Class Initialized
+INFO - 2024-04-27 13:57:27 --> Output Class Initialized
+INFO - 2024-04-27 13:57:27 --> Security Class Initialized
+DEBUG - 2024-04-27 13:57:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:57:27 --> Input Class Initialized
+INFO - 2024-04-27 13:57:27 --> Language Class Initialized
+INFO - 2024-04-27 13:57:27 --> Language Class Initialized
+INFO - 2024-04-27 13:57:27 --> Config Class Initialized
+INFO - 2024-04-27 13:57:27 --> Loader Class Initialized
+INFO - 2024-04-27 13:57:27 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:57:28 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:57:28 --> Email Class Initialized
+INFO - 2024-04-27 13:57:28 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:57:28 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:57:28 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:57:28 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:57:28 --> Upload Class Initialized
+INFO - 2024-04-27 13:57:28 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:57:28 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:57:28 --> Final output sent to browser
+DEBUG - 2024-04-27 21:57:28 --> Total execution time: 1.1602
+ERROR - 2024-04-27 21:57:28 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:57:28 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:57:28 --> URI Class Initialized
+INFO - 2024-04-27 13:57:28 --> Router Class Initialized
+INFO - 2024-04-27 13:57:28 --> Output Class Initialized
+INFO - 2024-04-27 13:57:28 --> Security Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:57:28 --> Input Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Loader Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:57:28 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:57:28 --> Email Class Initialized
+INFO - 2024-04-27 13:57:28 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:57:28 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:57:28 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:57:28 --> Upload Class Initialized
+INFO - 2024-04-27 13:57:28 --> Controller Class Initialized
+ERROR - 2024-04-27 13:57:28 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:57:28 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:57:28 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:57:28 --> URI Class Initialized
+INFO - 2024-04-27 13:57:28 --> Router Class Initialized
+INFO - 2024-04-27 13:57:28 --> Output Class Initialized
+INFO - 2024-04-27 13:57:28 --> Security Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:57:28 --> Input Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Loader Class Initialized
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:57:28 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:57:28 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:57:28 --> URI Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:57:28 --> Router Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:57:28 --> Output Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:57:28 --> Security Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:57:28 --> Input Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Language Class Initialized
+INFO - 2024-04-27 13:57:28 --> Config Class Initialized
+INFO - 2024-04-27 13:57:28 --> Loader Class Initialized
+INFO - 2024-04-27 13:57:28 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:57:28 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:57:28 --> Email Class Initialized
+INFO - 2024-04-27 13:57:28 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:57:28 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:57:28 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:57:28 --> Email Class Initialized
+INFO - 2024-04-27 13:57:28 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:57:28 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:57:28 --> Upload Class Initialized
+INFO - 2024-04-27 13:57:28 --> Controller Class Initialized
+INFO - 2024-04-27 13:57:28 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:57:28 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 13:57:28 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:57:28 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:57:28 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:57:28 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:57:28 --> Upload Class Initialized
+INFO - 2024-04-27 13:57:28 --> Controller Class Initialized
+ERROR - 2024-04-27 13:57:28 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:57:28 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:58:45 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:58:45 --> URI Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> No URI present. Default controller set.
+INFO - 2024-04-27 13:58:45 --> Router Class Initialized
+INFO - 2024-04-27 13:58:45 --> Output Class Initialized
+INFO - 2024-04-27 13:58:45 --> Security Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:58:45 --> Input Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Loader Class Initialized
+INFO - 2024-04-27 13:58:45 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:58:45 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:58:45 --> Email Class Initialized
+INFO - 2024-04-27 13:58:45 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:58:45 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:58:45 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:58:45 --> Upload Class Initialized
+INFO - 2024-04-27 13:58:45 --> Controller Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 21:58:45 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 21:58:45 --> Final output sent to browser
+DEBUG - 2024-04-27 21:58:45 --> Total execution time: 0.0827
+ERROR - 2024-04-27 21:58:45 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:58:45 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:58:45 --> URI Class Initialized
+INFO - 2024-04-27 13:58:45 --> Router Class Initialized
+INFO - 2024-04-27 13:58:45 --> Output Class Initialized
+INFO - 2024-04-27 13:58:45 --> Security Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:58:45 --> Input Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Loader Class Initialized
+INFO - 2024-04-27 13:58:45 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:58:45 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:58:45 --> Email Class Initialized
+INFO - 2024-04-27 13:58:45 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:58:45 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:58:45 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:58:45 --> Upload Class Initialized
+INFO - 2024-04-27 13:58:45 --> Controller Class Initialized
+ERROR - 2024-04-27 13:58:45 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:58:45 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Hooks Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> UTF-8 Support Enabled
+INFO - 2024-04-27 13:58:45 --> Utf8 Class Initialized
+INFO - 2024-04-27 13:58:45 --> URI Class Initialized
+INFO - 2024-04-27 13:58:45 --> Router Class Initialized
+INFO - 2024-04-27 13:58:45 --> Output Class Initialized
+INFO - 2024-04-27 13:58:45 --> Security Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 13:58:45 --> Input Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Language Class Initialized
+INFO - 2024-04-27 13:58:45 --> Config Class Initialized
+INFO - 2024-04-27 13:58:45 --> Loader Class Initialized
+INFO - 2024-04-27 13:58:45 --> Helper loaded: custom_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: url_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: file_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: html_helper
+INFO - 2024-04-27 13:58:45 --> Helper loaded: date_helper
+INFO - 2024-04-27 13:58:45 --> Database Driver Class Initialized
+INFO - 2024-04-27 13:58:45 --> Email Class Initialized
+INFO - 2024-04-27 13:58:45 --> User Agent Class Initialized
+DEBUG - 2024-04-27 13:58:45 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 13:58:45 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 13:58:45 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 13:58:45 --> Upload Class Initialized
+INFO - 2024-04-27 13:58:45 --> Controller Class Initialized
+ERROR - 2024-04-27 13:58:45 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 13:58:45 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:00:48 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:00:48 --> URI Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> No URI present. Default controller set.
+INFO - 2024-04-27 14:00:48 --> Router Class Initialized
+INFO - 2024-04-27 14:00:48 --> Output Class Initialized
+INFO - 2024-04-27 14:00:48 --> Security Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:00:48 --> Input Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Loader Class Initialized
+INFO - 2024-04-27 14:00:48 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:00:48 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:00:48 --> Email Class Initialized
+INFO - 2024-04-27 14:00:48 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:00:48 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:00:48 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:00:48 --> Upload Class Initialized
+INFO - 2024-04-27 14:00:48 --> Controller Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 22:00:48 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 22:00:48 --> Final output sent to browser
+DEBUG - 2024-04-27 22:00:48 --> Total execution time: 0.0660
+ERROR - 2024-04-27 22:00:48 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:00:48 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:00:48 --> URI Class Initialized
+INFO - 2024-04-27 14:00:48 --> Router Class Initialized
+INFO - 2024-04-27 14:00:48 --> Output Class Initialized
+INFO - 2024-04-27 14:00:48 --> Security Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:00:48 --> Input Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Loader Class Initialized
+INFO - 2024-04-27 14:00:48 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:00:48 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:00:48 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:00:48 --> URI Class Initialized
+INFO - 2024-04-27 14:00:48 --> Router Class Initialized
+INFO - 2024-04-27 14:00:48 --> Output Class Initialized
+INFO - 2024-04-27 14:00:48 --> Security Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:00:48 --> Input Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Language Class Initialized
+INFO - 2024-04-27 14:00:48 --> Config Class Initialized
+INFO - 2024-04-27 14:00:48 --> Loader Class Initialized
+INFO - 2024-04-27 14:00:48 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:00:48 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:00:48 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:00:48 --> Email Class Initialized
+INFO - 2024-04-27 14:00:48 --> Email Class Initialized
+INFO - 2024-04-27 14:00:48 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:00:48 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:00:48 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:00:48 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:00:48 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:00:48 --> Upload Class Initialized
+INFO - 2024-04-27 14:00:48 --> Controller Class Initialized
+ERROR - 2024-04-27 14:00:48 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:00:48 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:00:48 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:00:48 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:00:48 --> Upload Class Initialized
+INFO - 2024-04-27 14:00:48 --> Controller Class Initialized
+ERROR - 2024-04-27 14:00:48 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:00:48 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:06:23 --> Config Class Initialized
+INFO - 2024-04-27 14:06:23 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:06:23 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:06:23 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:06:23 --> URI Class Initialized
+DEBUG - 2024-04-27 14:06:23 --> No URI present. Default controller set.
+INFO - 2024-04-27 14:06:23 --> Router Class Initialized
+INFO - 2024-04-27 14:06:23 --> Output Class Initialized
+INFO - 2024-04-27 14:06:23 --> Security Class Initialized
+DEBUG - 2024-04-27 14:06:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:06:23 --> Input Class Initialized
+INFO - 2024-04-27 14:06:23 --> Language Class Initialized
+INFO - 2024-04-27 14:06:23 --> Language Class Initialized
+INFO - 2024-04-27 14:06:23 --> Config Class Initialized
+INFO - 2024-04-27 14:06:23 --> Loader Class Initialized
+INFO - 2024-04-27 14:06:23 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:06:23 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:06:23 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:06:23 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:06:23 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:06:23 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:06:23 --> Email Class Initialized
+INFO - 2024-04-27 14:06:24 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+ERROR - 2024-04-27 14:06:24 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:06:24 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:06:24 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:06:24 --> Upload Class Initialized
+INFO - 2024-04-27 14:06:24 --> Controller Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 22:06:24 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 22:06:24 --> Final output sent to browser
+DEBUG - 2024-04-27 22:06:24 --> Total execution time: 1.1406
+ERROR - 2024-04-27 22:06:24 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:06:24 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:06:24 --> URI Class Initialized
+INFO - 2024-04-27 14:06:24 --> Router Class Initialized
+INFO - 2024-04-27 14:06:24 --> Output Class Initialized
+INFO - 2024-04-27 14:06:24 --> Security Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:06:24 --> Input Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Loader Class Initialized
+INFO - 2024-04-27 14:06:24 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:06:24 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:06:24 --> Email Class Initialized
+INFO - 2024-04-27 14:06:24 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:06:24 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:06:24 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:06:24 --> Upload Class Initialized
+INFO - 2024-04-27 14:06:24 --> Controller Class Initialized
+ERROR - 2024-04-27 14:06:24 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:06:24 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Hooks Class Initialized
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:06:24 --> Utf8 Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:06:24 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:06:24 --> URI Class Initialized
+INFO - 2024-04-27 14:06:24 --> URI Class Initialized
+INFO - 2024-04-27 14:06:24 --> Router Class Initialized
+INFO - 2024-04-27 14:06:24 --> Router Class Initialized
+INFO - 2024-04-27 14:06:24 --> Output Class Initialized
+INFO - 2024-04-27 14:06:24 --> Output Class Initialized
+INFO - 2024-04-27 14:06:24 --> Security Class Initialized
+INFO - 2024-04-27 14:06:24 --> Security Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-27 14:06:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:06:24 --> Input Class Initialized
+INFO - 2024-04-27 14:06:24 --> Input Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Language Class Initialized
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Config Class Initialized
+INFO - 2024-04-27 14:06:24 --> Loader Class Initialized
+INFO - 2024-04-27 14:06:24 --> Loader Class Initialized
+INFO - 2024-04-27 14:06:24 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:06:24 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:06:24 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:06:24 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:06:24 --> Email Class Initialized
+INFO - 2024-04-27 14:06:24 --> Email Class Initialized
+INFO - 2024-04-27 14:06:24 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:06:24 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:06:24 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:06:24 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:06:24 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:06:24 --> Upload Class Initialized
+INFO - 2024-04-27 14:06:24 --> Controller Class Initialized
+ERROR - 2024-04-27 14:06:24 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:06:24 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:06:24 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:06:24 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:06:24 --> Upload Class Initialized
+INFO - 2024-04-27 14:06:24 --> Controller Class Initialized
+ERROR - 2024-04-27 14:06:24 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:06:24 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:08:06 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:08:06 --> URI Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> No URI present. Default controller set.
+INFO - 2024-04-27 14:08:06 --> Router Class Initialized
+INFO - 2024-04-27 14:08:06 --> Output Class Initialized
+INFO - 2024-04-27 14:08:06 --> Security Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:08:06 --> Input Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Loader Class Initialized
+INFO - 2024-04-27 14:08:06 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:08:06 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:08:06 --> Email Class Initialized
+INFO - 2024-04-27 14:08:06 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:08:06 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:08:06 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:08:06 --> Upload Class Initialized
+INFO - 2024-04-27 14:08:06 --> Controller Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Frontend MX_Controller Initialized
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/models/Frontend_model.php
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/header.php
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/main_header.php
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer.php
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\views\templates/frontend/footer_scripts.php
+DEBUG - 2024-04-27 22:08:06 --> File loaded: E:\xampp\htdocs\taxi-crm\application\modules/Frontend/views/home.php
+INFO - 2024-04-27 22:08:06 --> Final output sent to browser
+DEBUG - 2024-04-27 22:08:06 --> Total execution time: 0.1433
+ERROR - 2024-04-27 22:08:06 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:08:06 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:08:06 --> URI Class Initialized
+INFO - 2024-04-27 14:08:06 --> Router Class Initialized
+INFO - 2024-04-27 14:08:06 --> Output Class Initialized
+INFO - 2024-04-27 14:08:06 --> Security Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:08:06 --> Input Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Loader Class Initialized
+INFO - 2024-04-27 14:08:06 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:08:06 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:08:06 --> Email Class Initialized
+INFO - 2024-04-27 14:08:06 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:08:06 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:08:06 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:08:06 --> Upload Class Initialized
+INFO - 2024-04-27 14:08:06 --> Controller Class Initialized
+ERROR - 2024-04-27 14:08:06 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:08:06 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Hooks Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> UTF-8 Support Enabled
+INFO - 2024-04-27 14:08:06 --> Utf8 Class Initialized
+INFO - 2024-04-27 14:08:06 --> URI Class Initialized
+INFO - 2024-04-27 14:08:06 --> Router Class Initialized
+INFO - 2024-04-27 14:08:06 --> Output Class Initialized
+INFO - 2024-04-27 14:08:06 --> Security Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-27 14:08:06 --> Input Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Language Class Initialized
+INFO - 2024-04-27 14:08:06 --> Config Class Initialized
+INFO - 2024-04-27 14:08:06 --> Loader Class Initialized
+INFO - 2024-04-27 14:08:06 --> Helper loaded: custom_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: url_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: file_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: html_helper
+INFO - 2024-04-27 14:08:06 --> Helper loaded: date_helper
+INFO - 2024-04-27 14:08:06 --> Database Driver Class Initialized
+INFO - 2024-04-27 14:08:06 --> Email Class Initialized
+INFO - 2024-04-27 14:08:06 --> User Agent Class Initialized
+DEBUG - 2024-04-27 14:08:06 --> Session: "sess_save_path" is empty; using BC fallback to "sess_table_name".
+INFO - 2024-04-27 14:08:06 --> Session: Class initialized using 'database' driver.
+DEBUG - 2024-04-27 14:08:06 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2024-04-27 14:08:06 --> Upload Class Initialized
+INFO - 2024-04-27 14:08:06 --> Controller Class Initialized
+ERROR - 2024-04-27 14:08:06 --> 404 Page Not Found: /index
+ERROR - 2024-04-27 14:08:06 --> Severity: Warning --> Undefined array key "user_email" E:\xampp\htdocs\taxi-crm\system\libraries\Session\drivers\Session_database_driver.php 248
