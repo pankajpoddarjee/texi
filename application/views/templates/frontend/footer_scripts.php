@@ -92,8 +92,16 @@
 					$("#error_message_hour_passenger_count").show();
 					flag=false;
 				}
-				
+				// for second step
+				var hour_date_time = moment(hour_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				console.log(hour_date_time);
+				$('#pickup-step2').text(hour_pickup_address);
+				$('#dropup-step2').text(hour_dropup_address);
+				$('#passenger-count-step2').text(hour_passenger_count);
+				$('#duration-step2').text(duration);
+				$('#date-time-step2').text(hour_date_time);
 
+				// for review page
 				$('#date-time-final').text(hour_pickup_date_time);
 				$('#date-time-review').text(hour_pickup_date_time);
 				$('#pickup-review').text(hour_pickup_address);
@@ -102,7 +110,7 @@
 				$('#passenger-count-icon').text(hour_passenger_count);
 				$('#duration-review').text(duration);
 
-				var hour_date_time = moment(hour_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				//var hour_date_time = moment(hour_pickup_date_time).format('MMMM Do YYYY, h:mm A');
 				console.log(hour_date_time);
 				$('#date-time-final').text(hour_date_time);
 				$('#date-time-review').text(hour_date_time);
@@ -134,7 +142,17 @@
 					$("#error_message_one_passenger_count").show();
 					flag=false;
 				}
+				// for second step
+				var one_date_time = moment(one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				console.log(one_date_time);
+				$('#pickup-step2').text(one_pickup_address);
+				$('#dropup-step2').text(one_dropup_address);
+				$('#passenger-count-step2').text(one_passenger_count);
+				$('#duration-step2').text(duration);
+				$('#date-time-step2').text(one_date_time);
+				$('#duration-div-step2').css('display','none');
 
+				// for review page
 				$('#date-time-final').text(one_pickup_date_time);
 				$('#date-time-review').text(one_pickup_date_time);
 				$('#pickup-review').text(one_pickup_address);
@@ -142,7 +160,7 @@
 				$('#passenger-count-review').text(one_passenger_count);
 				$('#passenger-count-icon').text(one_passenger_count);
 
-				var one_date_time = moment(one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				//var one_date_time = moment(one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
 				console.log(one_date_time);
 				$('#date-time-final').text(one_date_time);
 				$('#date-time-review').text(one_date_time);

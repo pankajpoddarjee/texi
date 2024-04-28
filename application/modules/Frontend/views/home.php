@@ -403,34 +403,49 @@ $this->load->view('templates/frontend/main_header', $header);
               <div class="summary">
                 <div>
                   <p>PICK-UP DATE & TIME</p>
-                  <span>Monday, Mar 11th, 2024 12:31 PM</span>
+                  <span id="date-time-step2">Monday, Mar 11th, 2024 12:31 PM</span>
                 </div>
                 <div>
                   <p>PICK-UP ADDRESS</p>
-                  <span>120 Broadway, New York, NY, USA</span>
+                  <span id="pickup-step2">120 Broadway, New York, NY, USA</span>
                 </div>
                 <div>
+                  <p>DROP-OFF ADDRESS</p>
+                  <span id="dropup-step2">120 Broadway, New York, NY, USA</span>
+                </div>
+                <div id="duration-div-step2">
                   <p>DURATION</p>
-                  <span>4 Hours</span>
+                  <span id="duration-step2">4 Hours</span>
                 </div>
                 <div>
                   <p>PASSENGER COUNT</p>
-                  <span>4</span>
+                  <span id="passenger-count-step2">4</span>
                 </div>
               </div>
             </div>
             <h4 class="m-0">Choose Vehicle</h4>
+
+            <?php if(!empty($vehicle)){ 
+                    foreach($vehicle as $b_k=>$vehicles){ 
+                      $car_image=explode(",",$vehicles->car_image);
+                      if (!empty($vehicles->car_image)) {
+                                $car_img = base_url('assets/uploads/car_images/' . $car_image[0]);
+                                //print_r($img);
+                        } else {
+                                $car_img = base_url('assets/admin/media/illustrations/404-hd.png');
+                        }
+            ?>
             <div class="vehicle-item mt-0">
               <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
-                  <img src="<?=base_url('assets/frontend/car/car1.png')?>" alt="" class="img-fluid">
+                  <img src="<?=$car_img?>" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-8">                  
                   <div class="row mb-4">
                     <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h3 class="m-0">Prime SUV</h3>
-                      <p class="mb-2"><small>SUV</small></p>
-                      <p class="m-0"><i class="la la-user"></i> 4 Passengers</p>
+                      <h3 class="m-0"><?php echo !empty($vehicles->vehicle_type) ? $vehicles->vehicle_type :''; ?></h3>
+                      <p class="mb-2"><small><?php echo !empty($vehicles->make) ? $vehicles->make :''; ?></small></p>
+                      <p class="m-0"><i class="la la-user"></i> <?php echo !empty($vehicles->passenger_capacity) ? $vehicles->passenger_capacity :''; ?> Passengers</p>
                     </div>
                     <div class="col-sm-6 text-start text-sm-end">
                       <h3>$150.50</h3>
@@ -439,101 +454,48 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   
                   <div class="row">
+
+                    <?php if(isset($vehicles->general)) { ?>
                     <div class="col-sm-4 mb-3 mb-sm-0">
                       <p><small>GENERAL</small></p>
-                      <p><i class="las la-wind"></i> AC</p>
-                      <p><i class="las la-luggage-cart"></i> Luggage</p>
+                      <?php $generals=explode(",",$vehicles->general); 
+                      if(count($generals) > 0){
+                        foreach ($generals as $general) { ?>
+                          <p><i class="las la-wind"></i><?php echo $general; ?></p>
+                       <?php }
+                      } ?>
+                     
+                      <!-- <p><i class="las la-wind"></i> AC</p>
+                      <p><i class="las la-luggage-cart"></i> Luggage</p> -->
                     </div>
+                    <?php } ?>
+
+                    <?php if(isset($vehicles->multimedia)) { ?>
                     <div class="col-sm-4 mb-3 mb-sm-0">
                       <p class="mb-2"><small>MULTIMEDIA</small></p>
-                      <p><i class="lab la-bluetooth-b"></i> Bluetooth</p>
-                      <p><i class="lab la-usb"></i> USB</p>
+                      <?php $multimedias=explode(",",$vehicles->multimedia); 
+                      if(count($multimedias) > 0){
+                        foreach ($multimedias as $multimedia) { ?>
+                          <p><i class="lab la-bluetooth-b"></i> <?php echo $multimedia; ?></p>
+                       <?php }
+                      } ?>
+                      <!-- <p><i class="lab la-bluetooth-b"></i> Bluetooth</p>
+                      <p><i class="lab la-usb"></i> USB</p> -->
                     </div>
+                    <?php } ?>
+                    <?php if(isset($vehicles->policies)) { ?>
                     <div class="col-sm-4">
                       <p class="mb-2"><small>POLICY</small></p>
-                      <p><i class="las la-ban"></i> No alcohol, food, pets, or smoking allowed</p>
-                    </div>                  
+                      <p><i class="las la-ban"></i> <?php echo $vehicles->policies; ?></p>
+                    </div> 
+                    <?php } ?>                 
                 </div>
               </div>
               </div>                
             </div>
+            <?php } } ?>
             
-            
-            <div class="vehicle-item">
-              <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0">
-                  <img src="<?=base_url('assets/frontend/car/car2.jpg')?>" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-8">                  
-                  <div class="row mb-4">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h3 class="m-0">Prime SUV</h3>
-                      <p class="mb-2"><small>SUV</small></p>
-                      <p class="m-0"><i class="la la-user"></i> 4 Passengers</p>
-                    </div>
-                    <div class="col-sm-6 text-start text-sm-end">
-                      <h3>$150.50</h3>
-                      <a href="" class="btn btn-info">Choose Vehicle <i class="la la-arrow-right"></i></a>
-                    </div>
-                  </div>
-                  
-                  <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                      <p><small>GENERAL</small></p>
-                      <p><i class="las la-wind"></i> AC</p>
-                      <p><i class="las la-luggage-cart"></i> Luggage</p>
-                    </div>
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                      <p class="mb-2"><small>MULTIMEDIA</small></p>
-                      <p><i class="lab la-bluetooth-b"></i> Bluetooth</p>
-                      <p><i class="lab la-usb"></i> USB</p>
-                    </div>
-                    <div class="col-sm-4">
-                      <p class="mb-2"><small>POLICY</small></p>
-                      <p><i class="las la-ban"></i> No alcohol, food, pets, or smoking allowed</p>
-                    </div>                  
-                </div>
-              </div>
-              </div>                
-            </div>
-            
-            <div class="vehicle-item">
-              <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0">
-                  <img src="<?=base_url('assets/frontend/car/car3.png')?>" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-8">                  
-                  <div class="row mb-4">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h3 class="m-0">Prime SUV</h3>
-                      <p class="mb-2"><small>SUV</small></p>
-                      <p class="m-0"><i class="la la-user"></i> 4 Passengers</p>
-                    </div>
-                    <div class="col-sm-6 text-start text-sm-end">
-                      <h5>Request for Pricing</h5>
-                      <a href="" class="btn btn-info">Choose Vehicle <i class="la la-arrow-right"></i></a>
-                    </div>
-                  </div>
-                  
-                  <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                      <p><small>GENERAL</small></p>
-                      <p><i class="las la-wind"></i> AC</p>
-                      <p><i class="las la-luggage-cart"></i> Luggage</p>
-                    </div>
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                      <p class="mb-2"><small>MULTIMEDIA</small></p>
-                      <p><i class="lab la-bluetooth-b"></i> Bluetooth</p>
-                      <p><i class="lab la-usb"></i> USB</p>
-                    </div>
-                    <div class="col-sm-4">
-                      <p class="mb-2"><small>POLICY</small></p>
-                      <p><i class="las la-ban"></i> No alcohol, food, pets, or smoking allowed</p>
-                    </div>                  
-                </div>
-              </div>
-              </div>                
-            </div>
+           
             
             <div class="text-end step-buttons">
               <button type="button" class="btn btn-secondary prev-step">Previous Step</button>

@@ -38,7 +38,10 @@ class Frontend extends FrontendController
 		
         $data['header']['site_title'] = 'Home';
         $data['header']['og_title'] = 'Home';
-		
+		$vehicle = $this->Frontend_model->getVehicleDetails();
+        $data['vehicle'] = $vehicle;
+        // echo "<pre>";
+        // print_r($data['vehicle']);
                  //pr($data['journals']);die();
         $this->load->view('home', $data);
     }
