@@ -1,7 +1,8 @@
 
 <!-- JavaScript Libraries -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
 <!-- Template Main Javascript File -->
@@ -100,7 +101,8 @@
 				$('#passenger-count-step2').text(hour_passenger_count);
 				$('#duration-step2').text(duration);
 				$('#date-time-step2').text(hour_date_time);
-
+				$('#duration-div-step2').css('display','block');
+				$('#return-div-step2').css('display','none');
 				// for review page
 				$('#date-time-final').text(hour_pickup_date_time);
 				$('#date-time-review').text(hour_pickup_date_time);
@@ -151,7 +153,7 @@
 				$('#duration-step2').text(duration);
 				$('#date-time-step2').text(one_date_time);
 				$('#duration-div-step2').css('display','none');
-
+				$('#return-div-step2').css('display','none');
 				// for review page
 				$('#date-time-final').text(one_pickup_date_time);
 				$('#date-time-review').text(one_pickup_date_time);
@@ -233,7 +235,11 @@
 					$("#error_message_return_two_passenger_count").show();
 					flag=false;
 				}
-			
+				
+			var return_order_type               =      $("#return_order_type").val();
+			var return_one_pickup_date_time     =      $("#return_one_pickup_date_time").val();
+			var return_one_pickup_address_type  =      $('input[name="return_one_pickup_address_type"]:checked').val();
+			var return_one_pickup_address       =      $("#return_one_pickup_address").val();
 			var return_one_dropup_address_type  =      $("#return_one_dropup_address_type").val();
 			var return_one_dropup_address       =      $("#return_one_dropup_address").val();
 			var return_one_passenger_count      =      $("#return_one_passenger_count").val();
@@ -244,6 +250,27 @@
 			var return_two_dropup_address_type  =      $("#return_two_dropup_address_type").val();
 			var return_two_dropup_address       =      $("#return_two_dropup_address").val();
 			var return_two_passenger_count      =      $("#return_two_passenger_count").val();
+			
+				// for second step
+				var return_one_pickup_date_time = moment(return_one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				var return_two_pickup_date_time = moment(return_two_pickup_date_time).format('MMMM Do YYYY, h:mm A');
+				//console.log(one_date_time);
+				$('#pickup-step2').text(return_one_pickup_address);
+				$('#dropup-step2').text(return_one_dropup_address);
+				$('#passenger-count-step2').text(return_one_passenger_count);
+				$('#date-time-step2').text(return_one_pickup_date_time);
+				$('#duration-div-step2').css('display','none');
+				$('#return-div-step2').css('display','block');
+				$('#return-date-time-step2').text(return_two_pickup_date_time);
+				// for review page
+				$('#date-time-final').text(return_one_pickup_date_time);
+				$('#date-time-review').text(return_one_pickup_date_time);
+				$('#pickup-review').text(return_one_pickup_address);
+				$('#dropup-review').text(return_one_dropup_address);
+				$('#passenger-count-review').text(return_one_passenger_count);
+				$('#passenger-count-icon').text(return_one_passenger_count);
+				//$('#date-time-final').text(one_date_time);
+				//$('#date-time-review').text(one_date_time);
 			}
 			
 			

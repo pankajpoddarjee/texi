@@ -415,7 +415,11 @@ $this->load->view('templates/frontend/main_header', $header);
                 </div>
                 <div id="duration-div-step2">
                   <p>DURATION</p>
-                  <span id="duration-step2">4 Hours</span>
+                  <span><span id="duration-step2">4 </span> Hours</span>
+                </div>
+                <div id="return-div-step2">
+                  <p>RETURN DATE & TIME</p>
+                  <span id="return-date-time-step2">Monday, Mar 11th, 2024 12:31 PM</span>
                 </div>
                 <div>
                   <p>PASSENGER COUNT</p>
@@ -423,7 +427,7 @@ $this->load->view('templates/frontend/main_header', $header);
                 </div>
               </div>
             </div>
-            <h4 class="m-0">Choose Vehicle</h4>
+            <h4 class="m-0 ">Choose Vehicle</h4>
 
             <?php if(!empty($vehicle)){ 
                     foreach($vehicle as $b_k=>$vehicles){ 
@@ -449,7 +453,8 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                     <div class="col-sm-6 text-start text-sm-end">
                       <h3>$150.50</h3>
-                      <a href="" class="btn btn-info">Choose Vehicle <i class="la la-arrow-right"></i></a>
+                      <a href="javascript:void(0)" onclick="document.querySelector('#vehicle_id').value=<?php echo $vehicles->id ?>" class="btn btn-info next-step">Choose Vehicle <i class="la la-arrow-right"></i></a>
+                     
                     </div>
                   </div>
                   
@@ -498,6 +503,7 @@ $this->load->view('templates/frontend/main_header', $header);
            
             
             <div class="text-end step-buttons">
+            <input type="hidden" id="vehicle_id" name="vehicle_id">
               <button type="button" class="btn btn-secondary prev-step">Previous Step</button>
               <button type="button" class="btn btn-primary next-step">Next Step</button>
             </div>
@@ -579,20 +585,24 @@ $this->load->view('templates/frontend/main_header', $header);
                   <hr>
                   <h5>Booking Contact</h5>
                   <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Mobile number *">
+                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile number *">
+                    <div style="color:red;display:none;" id="err_mobile">Enter Mobile No.</div>
                   </div>
                   <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Email *">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email *">
+                    <div style="color:red;display:none;" id="err_email">Enter Email</div>
                   </div>
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="First name *">
+                      <input type="text" class="form-control" name="first_name" id="first_name"  placeholder="First name *">
+                      <div style="color:red;display:none;" id="err_first_name">Enter First Name</div>
                     </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Last name *">
+                      <input type="text" class="form-control" placeholder="Last name *" name="last_name" id="last_name">
+                      <div style="color:red;display:none;" id="err_last_name">Enter Last Name</div>
                     </div>
                     </div>
                   </div>
@@ -600,12 +610,12 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
-                        I agree to the <a href="">Terms & Conditions</a>
+                        I agree to the <a href="javascript:void(0)">Terms & Conditions</a>
                       </label>
                     </div>
                   </div>
                   <div class="mb-4">
-                    <a href="" class="btn btn-primary w-100">Reserve</a>
+                    <a href="javascript:void(0)" id="save-reserve" class="btn btn-primary w-100">Reserve</a>
                   </div>
                   <p class="font-14 m-0">By clicking “Reserve” you agree to receive order updates via SMS. Messages & data rates may apply. You can also opt out of receiving text messages at any time by replying STOP.</p>
                 </div>
@@ -633,7 +643,64 @@ $this->load->view('templates/frontend/main_header', $header);
 $this->load->view('templates/frontend/footer', $header);
 $this->load->view('templates/frontend/footer_scripts', $header);
 ?>
-
+ <script>
+  // INSERT AND UPDATE SCRIPT
+  $('body').on('click','#save-reserve',function(){
+          flag=true;
+          if($("#mobile").val()=='' || $("#mobile").val()==undefined)
+				  { 
+					  $("#err_mobile").show();
+					  flag=false;
+				  }
+          if($("#email").val()=='' || $("#email").val()==undefined)
+				  { 
+					  $("#err_email").show();
+					  flag=false;
+				  }
+          if($("#first_name").val()=='' || $("#first_name").val()==undefined)
+				  { 
+					  $("#err_first_name").show();
+					  flag=false;
+				  }
+          if($("#last_name").val()=='' || $("#last_name").val()==undefined)
+				  { 
+					  $("#err_last_name").show();
+					  flag=false;
+				  }
+          if(flag){
+            //$('#dvLoading').show();
+            var data = $("#multi-step-form").serialize();
+            $.ajax({
+            type: "post",
+            async: false,
+            // url: "booking.php",
+            url: "<?php echo base_url('booking'); ?>", 
+            data: data, 
+            dataType: "json",
+            
+            success: function(data) { 
+                
+                if(data.status==1)
+                { 
+                  window.location = "<?php echo base_url('thankyou'); ?>";
+                   
+                }
+                else
+                {
+                  alert(data.msg);
+                    return false;
+                }
+                
+            },
+            complete: function(){
+                $('#dvLoading').hide();
+            }
+            });
+          }else{
+            return false;
+          }
+        } );
+ </script>
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ0FX4PX3pqB6lApllDjzjs3JXgBiNHqc&libraries=places"></script>
         <script type="text/javascript">
                function initialize() {

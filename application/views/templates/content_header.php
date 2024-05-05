@@ -389,29 +389,6 @@ class="material-icons">power_settings_new</i></a>
 
 </ul>
 </li>
-
-<li class="nav-item">
-<a href="#" class="nav-link nav-toggle">
-<i class="material-icons">airport_shuttle</i>
-<span class="title">Booking</span>
-<span class="arrow"></span>
-</a>
-<ul class="sub-menu">
-<!-- <li class="nav-item">
-<a href="<?=base_url('Vehicles/type_listing')?>" class="nav-link ">
-<span class="title">Vehicle Type Listing</span>
-</a>
-</li>     -->
-<li class="nav-item">
-<a href="<?=base_url('Booking/booking_list')?>" class="nav-link ">
-<span class="title">Booking List</span>
-</a>
-</li>
-
-</ul>
-</li>
-
-
 <li class="nav-item">
 <a href="#" class="nav-link nav-toggle">
 <i class="material-icons">style</i>
