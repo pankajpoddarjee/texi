@@ -48,7 +48,7 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div id="tab_1" class="tab-pane active">
                   <div class="form-group">
                     <label>Duration</label>
-                    <select class="form-control" id="duration" name="duration">
+                    <select class="form-control" id="duration" name="duration" onchange="document.querySelector('#error_message_duration').style.display = 'none'">
                       <option value="" selected>Duration</option>
                       <option value="0.5">0.5h</option>
                       <option value="1">1h</option>
@@ -79,14 +79,14 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="form-group">
                     <label>Date & Time</label>
-                    <input type="datetime-local" class="form-control" name="hour_pickup_date_time" id="hour_pickup_date_time">
+                    <input type="datetime-local" class="form-control" name="hour_pickup_date_time" id="hour_pickup_date_time"   onblur="document.querySelector('#error_message_hour_pickup_date_time').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_hour_pickup_date_time">Please select date & time</div>
                   </div>
                   <div class="form-group">
                     <div class="d-flex align-self-center">
                       <label class="align-self-center me-3">Pick-up</label>
                       <div class="form-check-inline">
-                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type11" checked value="address">
+                        <input class="btn-check" type="radio" name="hour_pickup_address_type" id="hour_pickup_address_type11" checked value="address" >
                         <label class="btn btn-outline-primary" for="hour_pickup_address_type11">
                           Address
                         </label>
@@ -101,7 +101,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
 
                   <div class="form-group">                    
-                    <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address" >
+                    <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address" onfocus="document.querySelector('#error_message_hour_pickup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_hour_pickup_address" >Please select pickup address</div>
                   </div>
 
@@ -128,7 +128,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
 
                   <div class="form-group">                    
-                    <input type="text" class="form-control" id="hour_dropup_address" name="hour_dropup_address" placeholder="Address">
+                    <input type="text" class="form-control" id="hour_dropup_address" name="hour_dropup_address" placeholder="Address" onfocus="document.querySelector('#error_message_hour_dropup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_hour_dropup_address">Please select drop-off address</div>
                   </div>
                   <div class="form-group">                    
@@ -169,7 +169,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="form-group">
                     <label>Date & Time</label>
-                    <input type="datetime-local" class="form-control" name="one_pickup_date_time" id="one_pickup_date_time">
+                    <input type="datetime-local" class="form-control" name="one_pickup_date_time" id="one_pickup_date_time" onblur="document.querySelector('#error_message_one_pickup_date_time').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_one_pickup_date_time">Please select date & time</div>
                   </div>
                   <div class="form-group">
@@ -191,7 +191,7 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
 
                   <div class="form-group">                    
-                    <input type="text" class="form-control" placeholder="Address" id="one_pickup_address" name="one_pickup_address">
+                    <input type="text" class="form-control" placeholder="Address" id="one_pickup_address" name="one_pickup_address" onfocus="document.querySelector('#error_message_one_pickup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_one_pickup_address">Please select pickup address</div>
                   </div>
 
@@ -217,7 +217,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                   </div>
                   <div class="form-group">                    
-                    <input type="text" class="form-control" placeholder="Address" id="one_dropup_address" name="one_dropup_address">
+                    <input type="text" class="form-control" placeholder="Address" id="one_dropup_address" name="one_dropup_address" onfocus="document.querySelector('#error_message_one_dropup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_one_dropup_address">Please select drop-off address</div>
                   </div>
                   <div class="form-group">                    
@@ -255,7 +255,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     <h3>Round Trip: Pick-Up</h3>
                     <div class="form-group">
                       <label>Date & Time</label>
-                      <input type="datetime-local" class="form-control" name="return_one_pickup_date_time" id="return_one_pickup_date_time">
+                      <input type="datetime-local" class="form-control" name="return_one_pickup_date_time" id="return_one_pickup_date_time" onblur="document.querySelector('#error_message_return_one_pickup_date_time').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_one_pickup_date_time">Please select date & time</div>
                     </div>
                     <div class="form-group">
@@ -277,7 +277,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
 
                     <div class="form-group">                    
-                      <input type="text" class="form-control" placeholder="Address" id="return_one_pickup_address" name="return_one_pickup_address">
+                      <input type="text" class="form-control" placeholder="Address" id="return_one_pickup_address" name="return_one_pickup_address" onfocus="document.querySelector('#error_message_return_one_pickup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_one_pickup_address">Please select pickup address </div>
                     </div>
 
@@ -303,7 +303,7 @@ $this->load->view('templates/frontend/main_header', $header);
                       </div>
                     </div>
                     <div class="form-group">                    
-                      <input type="text" class="form-control" placeholder="Address" id="return_one_dropup_address" name="return_one_dropup_address">
+                      <input type="text" class="form-control" placeholder="Address" id="return_one_dropup_address" name="return_one_dropup_address" onfocus="document.querySelector('#error_message_return_one_dropup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_one_dropup_address">Please select drop-off address</div>
                     </div>
                     <div class="form-group mb-0">                    
@@ -323,7 +323,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     <h3>Round Trip: Return</h3>
                     <div class="form-group">
                       <label>Date & Time</label>
-                      <input type="datetime-local" class="form-control" name="return_two_pickup_date_time" id="return_two_pickup_date_time">
+                      <input type="datetime-local" class="form-control" name="return_two_pickup_date_time" id="return_two_pickup_date_time" onblur="document.querySelector('#error_message_return_two_pickup_date_time').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_pickup_date_time">Please select date & time</div>
                     </div>
                     <div class="form-group">
@@ -345,7 +345,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
 
                     <div class="form-group">                    
-                      <input type="text" class="form-control" placeholder="Address" id="return_two_pickup_address" name="return_two_pickup_address">
+                      <input type="text" class="form-control" placeholder="Address" id="return_two_pickup_address" name="return_two_pickup_address" onfocus="document.querySelector('#error_message_return_two_pickup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_pickup_address">Please select pickup address</div>
                     </div>
 
@@ -371,7 +371,7 @@ $this->load->view('templates/frontend/main_header', $header);
                       </div>
                     </div>
                     <div class="form-group">                    
-                      <input type="text" class="form-control" placeholder="Address" id="return_two_dropup_address" name="return_two_dropup_address">
+                      <input type="text" class="form-control" placeholder="Address" id="return_two_dropup_address" name="return_two_dropup_address" onfocus="document.querySelector('#error_message_return_two_dropup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_dropup_address">Please select drop-off address</div>
                     </div>
                     <div class="form-group mb-0">                    
@@ -505,7 +505,7 @@ $this->load->view('templates/frontend/main_header', $header);
             <div class="text-end step-buttons">
             <input type="hidden" id="vehicle_id" name="vehicle_id">
               <button type="button" class="btn btn-secondary prev-step">Previous Step</button>
-              <button type="button" class="btn btn-primary next-step">Next Step</button>
+              <!-- <button type="button" class="btn btn-primary next-step">Next Step</button> -->
             </div>
           </div>
 
@@ -585,23 +585,23 @@ $this->load->view('templates/frontend/main_header', $header);
                   <hr>
                   <h5>Booking Contact</h5>
                   <div class="mb-3">
-                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile number *">
+                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile number *" onfocus="document.querySelector('#err_mobile').style.display = 'none'">
                     <div style="color:red;display:none;" id="err_mobile">Enter Mobile No.</div>
                   </div>
                   <div class="mb-3">
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Email *">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email *" onfocus="document.querySelector('#err_email').style.display = 'none'">
                     <div style="color:red;display:none;" id="err_email">Enter Email</div>
                   </div>
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="mb-3">
-                      <input type="text" class="form-control" name="first_name" id="first_name"  placeholder="First name *">
+                      <input type="text" class="form-control" name="first_name" id="first_name"  placeholder="First name *" onfocus="document.querySelector('#err_first_name').style.display = 'none'">
                       <div style="color:red;display:none;" id="err_first_name">Enter First Name</div>
                     </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Last name *" name="last_name" id="last_name">
+                      <input type="text" class="form-control" placeholder="Last name *" name="last_name" id="last_name" onfocus="document.querySelector('#err_last_name').style.display = 'none'">
                       <div style="color:red;display:none;" id="err_last_name">Enter Last Name</div>
                     </div>
                     </div>
@@ -632,7 +632,7 @@ $this->load->view('templates/frontend/main_header', $header);
             </div>
             <div class="text-end step-buttons">
               <button type="button" class="btn btn-secondary prev-step">Previous Step</button>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <!-- <button type="submit" class="btn btn-success">Submit</button> -->
             </div>
           </div>
         </form>
