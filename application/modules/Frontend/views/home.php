@@ -453,7 +453,7 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                     <div class="col-sm-6 text-start text-sm-end">
                       <h3>$150.50</h3>
-                      <a href="javascript:void(0)" onclick="document.querySelector('#vehicle_id').value=<?php echo $vehicles->id ?>" class="btn btn-info next-step">Choose Vehicle <i class="la la-arrow-right"></i></a>
+                      <a href="javascript:void(0)" vid="<?php echo  $vehicles->id; ?>" vtype="<?php echo  $vehicles->vehicle_type; ?>" vmake="<?php echo  $vehicles->make; ?>" pcapacity="<?php echo  $vehicles->passenger_capacity; ?>" multimedia="<?php echo  $vehicles->multimedia; ?>"  class="btn btn-info next-step choose-vehicle">Choose Vehicle <i class="la la-arrow-right"></i></a>
                      
                     </div>
                   </div>
@@ -563,8 +563,8 @@ $this->load->view('templates/frontend/main_header', $header);
                     <div class="d-flex align-items-center">
                       <img src="<?=base_url('assets/frontend/car/car1.jpg')?>" alt="" class="img-fluid me-3" width="80">
                       <div>
-                        <p class="mb-2"><b>Premium SUV</b></p>
-                        <div><span><i class="la la-car me-1 font-20"></i> SUV</span> <span class="px-2">|</span> <span><i class="las font-20 la-couch me-1"></i> 5</span></div>
+                        <p class="mb-2"><b id="vehicle-type-review">Premium SUV</b></p>
+                        <div><span ><i class="la la-car me-1 font-20"></i> <span id="vehicle-make-review">SUV</span></span> <span class="px-2">|</span> <span ><i class="las font-20 la-couch me-1"></i><span id="vehicle-pnr-capacity"> 6 </span></span></div>
                       </div>
                     </div>
                     <div class="">

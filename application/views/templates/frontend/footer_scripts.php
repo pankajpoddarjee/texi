@@ -307,6 +307,19 @@
           var progressPercentage = ((currentStep - 1) / 2) * 100;
           $(".progress-bar").css("width", progressPercentage + "%");
         }
+
+		$(".choose-vehicle").click(function() {
+		  var vehicle_id = $(this).attr('vid');
+          var vehicle_type = $(this).attr('vtype');
+		  var vehicle_make = $(this).attr('vmake');
+		  var pcapacity = $(this).attr('pcapacity');
+		  var multimedia = $(this).attr('multimedia');
+
+		  $("#vehicle_id").val(vehicle_id);
+		  $("#vehicle-type-review").text(vehicle_type);
+		  $("#vehicle-make-review").text(vehicle_make);
+		  $("#vehicle-pnr-capacity").text(pcapacity);
+        });
     });
 </script>
 
