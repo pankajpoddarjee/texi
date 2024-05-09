@@ -428,7 +428,8 @@ $this->load->view('templates/frontend/main_header', $header);
               </div>
             </div>
             <h4 class="m-0 ">Choose Vehicle</h4>
-
+            <input type="text" id="distance" name="distance">
+            
             <?php if(!empty($vehicle)){ 
                     foreach($vehicle as $b_k=>$vehicles){ 
                       $car_image=explode(",",$vehicles->car_image);
@@ -439,6 +440,7 @@ $this->load->view('templates/frontend/main_header', $header);
                                 $car_img = base_url('assets/admin/media/illustrations/404-hd.png');
                         }
             ?>
+            
             <div class="vehicle-item mt-0">
               <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
@@ -447,17 +449,21 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div class="col-md-8">                  
                   <div class="row mb-4">
                     <div class="col-sm-6 mb-3 mb-sm-0">
-                      <input type="text" id="weekday_hourly_rate" name="weekday_hourly_rate" value="<?php echo  $vehicles->weekday_hourly_rate; ?>">
-                      <input type="text" id="weekend_hourly_rate" name="weekend_hourly_rate" value="<?php echo  $vehicles->weekend_hourly_rate; ?>">
-                      <input type="text" id="weekday_hourly_minimum" name="weekday_hourly_minimum" value="<?php echo  $vehicles->weekday_hourly_minimum; ?>">
-                      <input type="text" id="distance" name="distance">
+                      <input type="text" name="cars[]" cid="<?php echo  $vehicles->id; ?>" value="<?php echo  $vehicles->id; ?>">
+                      <input type="text" id="choose_your_weekend<?php echo  $vehicles->id; ?>" name="choose_your_weekend" value="<?php echo  $vehicles->choose_your_weekend; ?>">
+                      <input type="text" id="weekday_hourly_rate<?php echo  $vehicles->id; ?>" name="weekday_hourly_rate" value="<?php echo  $vehicles->weekday_hourly_rate; ?>">
+                      <input type="text" id="weekend_hourly_rate<?php echo  $vehicles->id; ?>" name="weekend_hourly_rate" value="<?php echo  $vehicles->weekend_hourly_rate; ?>">
+                      <input type="text" id="weekday_hourly_minimum<?php echo  $vehicles->id; ?>" name="weekday_hourly_minimum" value="<?php echo  $vehicles->weekday_hourly_minimum; ?>">
+
+                      
+
                       <h3 class="m-0"><?php echo !empty($vehicles->vehicle_type) ? $vehicles->vehicle_type :''; ?></h3>
                       <p class="mb-2"><small><?php echo !empty($vehicles->make) ? $vehicles->make :''; ?></small></p>
                       <p class="m-0"><i class="la la-user"></i> <?php echo !empty($vehicles->passenger_capacity) ? $vehicles->passenger_capacity :''; ?> Passengers</p>
                     </div>
                     <div class="col-sm-6 text-start text-sm-end">
-                      <h3>$150.50</h3>
-                      <a href="javascript:void(0)" vid="<?php echo  $vehicles->id; ?>" vtype="<?php echo  $vehicles->vehicle_type; ?>" vmake="<?php echo  $vehicles->make; ?>" pcapacity="<?php echo  $vehicles->passenger_capacity; ?>" multimedia="<?php echo  $vehicles->multimedia; ?>"  class="btn btn-info next-step choose-vehicle">Choose Vehicle <i class="la la-arrow-right"></i></a>
+                      <h3 id="vehicle-price-show-second-step<?php echo  $vehicles->id; ?>">$150.50</h3>
+                      <a href="javascript:void(0)" id="fare<?php echo  $vehicles->id; ?>" vid="<?php echo  $vehicles->id; ?>" vtype="<?php echo  $vehicles->vehicle_type; ?>" vmake="<?php echo  $vehicles->make; ?>" pcapacity="<?php echo  $vehicles->passenger_capacity; ?>" multimedia="<?php echo  $vehicles->multimedia; ?>"  class="btn btn-info next-step choose-vehicle">Choose Vehicle <i class="la la-arrow-right"></i></a>
                      
                     </div>
                   </div>
@@ -582,8 +588,9 @@ $this->load->view('templates/frontend/main_header', $header);
               <div class="col-lg-5">
                 <div class="review-price mb-4">
                   <h5>Price Overview</h5>
+                  <input type="text" id="price" name="price">
                   <p class="mb-2"><b>Trip 1 Pricing</b></p>
-                  <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Base Rate</span><span>$264.00</span></small></p>
+                  <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Base Rate</span><span id="vehicle-price-show-review-step">$264.00</span></small></p>
                   <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Service Fee</span><span>$9.24</span></small></p>
                   <p class="d-flex align-items-center justify-content-between"><span><b>Trip 1 Total</b></span><span><b>$273.24</b></span></p>                  
                   <hr>

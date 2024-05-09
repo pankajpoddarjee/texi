@@ -168,7 +168,7 @@
 				console.log(one_date_time);
 				$('#date-time-final').text(one_date_time);
 				$('#date-time-review').text(one_date_time);
-
+				getDistance(one_pickup_address,one_dropup_address);
 			}else{
 				
 				if(return_order_type=='')
@@ -238,20 +238,20 @@
 					flag=false;
 				}
 				
-			var return_order_type               =      $("#return_order_type").val();
-			var return_one_pickup_date_time     =      $("#return_one_pickup_date_time").val();
-			var return_one_pickup_address_type  =      $('input[name="return_one_pickup_address_type"]:checked').val();
-			var return_one_pickup_address       =      $("#return_one_pickup_address").val();
-			var return_one_dropup_address_type  =      $("#return_one_dropup_address_type").val();
-			var return_one_dropup_address       =      $("#return_one_dropup_address").val();
-			var return_one_passenger_count      =      $("#return_one_passenger_count").val();
+				var return_order_type               =      $("#return_order_type").val();
+				var return_one_pickup_date_time     =      $("#return_one_pickup_date_time").val();
+				var return_one_pickup_address_type  =      $('input[name="return_one_pickup_address_type"]:checked').val();
+				var return_one_pickup_address       =      $("#return_one_pickup_address").val();
+				var return_one_dropup_address_type  =      $("#return_one_dropup_address_type").val();
+				var return_one_dropup_address       =      $("#return_one_dropup_address").val();
+				var return_one_passenger_count      =      $("#return_one_passenger_count").val();
 
-			var return_two_pickup_date_time     =      $("#return_two_pickup_date_time").val();
-			var return_two_pickup_address_type  =      $('input[name="return_two_pickup_address_type"]:checked').val();
-			var return_two_pickup_address       =      $("#return_two_pickup_address").val();
-			var return_two_dropup_address_type  =      $("#return_two_dropup_address_type").val();
-			var return_two_dropup_address       =      $("#return_two_dropup_address").val();
-			var return_two_passenger_count      =      $("#return_two_passenger_count").val();
+				var return_two_pickup_date_time     =      $("#return_two_pickup_date_time").val();
+				var return_two_pickup_address_type  =      $('input[name="return_two_pickup_address_type"]:checked').val();
+				var return_two_pickup_address       =      $("#return_two_pickup_address").val();
+				var return_two_dropup_address_type  =      $("#return_two_dropup_address_type").val();
+				var return_two_dropup_address       =      $("#return_two_dropup_address").val();
+				var return_two_passenger_count      =      $("#return_two_passenger_count").val();
 			
 				// for second step
 				var return_one_pickup_date_time = moment(return_one_pickup_date_time).format('MMMM Do YYYY, h:mm A');
@@ -273,6 +273,7 @@
 				$('#passenger-count-icon').text(return_one_passenger_count);
 				//$('#date-time-final').text(one_date_time);
 				//$('#date-time-review').text(one_date_time);
+				getDistance(return_one_pickup_address,return_one_dropup_address);
 			}
 			
 			
@@ -316,17 +317,20 @@
 		  var vehicle_make = $(this).attr('vmake');
 		  var pcapacity = $(this).attr('pcapacity');
 		  var multimedia = $(this).attr('multimedia');
+		  var vehicle_fare = $(this).attr('vfare');
 
 		  $("#vehicle_id").val(vehicle_id);
 		  $("#vehicle-type-review").text(vehicle_type);
 		  $("#vehicle-make-review").text(vehicle_make);
 		  $("#vehicle-pnr-capacity").text(pcapacity);
+		  $('#price').val(vehicle_fare);
+		  $('#vehicle-price-show-review-step').text("$"+vehicle_fare);
         });
     });
-
+	// GET DISTANCE API
 	function getDistance(origin,destination){
-		alert(origin);
-		alert(destination);
+		//alert(origin);
+		//alert(destination);
 
 		//var origin = "Bhilai, Chhattisgarh",
         //     destination = "Raipur, Chhattisgarh",
@@ -350,18 +354,69 @@
                 var dist = document.getElementById("distance");
                  //duration = document.getElementById("duration");
          
-             if(status=="OK") {
+            if(status=="OK") {
                  //dest.value = response.destinationAddresses[0];
                  //orig.value = response.originAddresses[0];
+				 //duration.value = response.rows[0].elements[0].duration.text;
 				 var distance_with_km = response.rows[0].elements[0].distance.text;
 				 var distance = distance_with_km.replace(' km','');
                  dist.value = distance;
-                 //duration.value = response.rows[0].elements[0].duration.text;
-             } else {
+                 
+				$('[name^="cars"]').each(function(){ 
+					var distance = $('#distance').val();
+					var cid = $(this).attr("cid");
+					var choose_your_weekend = $('#choose_your_weekend'+cid).val();
+					var weekday_hourly_rate = $('#weekday_hourly_rate'+cid).val();
+					var weekend_hourly_rate = $('#weekend_hourly_rate'+cid).val();
+
+					var trip_type =  $('#trip_type').val();
+					if(trip_type == 1){
+						var hour_pickup_date_time = $("#hour_pickup_date_time").val();
+						var day_hour_date_time = moment(hour_pickup_date_time).format('dddd');
+				    	var is_weekend = choose_your_weekend.indexOf(day_hour_date_time) != -1;
+						
+					}else if(trip_type == 2){
+						var one_pickup_date_time = $("#one_pickup_date_time").val();
+						var day_one_date_time = moment(one_pickup_date_time).format('dddd');
+						var is_weekend = choose_your_weekend.indexOf(day_one_date_time) != -1;
+
+					}else{
+						var return_one_pickup_date_time= $("#return_one_pickup_date_time").val();
+						var day_return_one_pickup_date_time = moment(return_one_pickup_date_time).format('dddd');
+						var is_weekend = choose_your_weekend.indexOf(day_return_one_pickup_date_time) != -1;
+					}
+					if(is_weekend){
+						var price = distance*weekend_hourly_rate;
+						$('#vehicle-price-show-second-step'+cid).text("$"+price);
+						$('#fare'+cid).attr("vfare",price);
+					}else{
+						var price = distance*weekday_hourly_rate;
+						$('#vehicle-price-show-second-step'+cid).text("$"+price);
+						$('#fare'+cid).attr("vfare",price);
+					}
+
+
+					
+					
+					// var str = "ball, apple fritters, mouse, kindle";
+					// var hasApple = choose_your_weekend.indexOf('apple') != -1; // true
+					
+					
+					
+
+					
+					
+				});
+            } else {
                  alert("Error: " + status);
-             }
+            }
          }
 	}
+
+	
+
+
 </script>
+
 
 </html>
