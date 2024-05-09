@@ -353,7 +353,9 @@
              if(status=="OK") {
                  //dest.value = response.destinationAddresses[0];
                  //orig.value = response.originAddresses[0];
-                 dist.value = response.rows[0].elements[0].distance.text;
+				 var distance_with_km = response.rows[0].elements[0].distance.text;
+				 var distance = distance_with_km.replace(' km','');
+                 dist.value = distance;
                  //duration.value = response.rows[0].elements[0].duration.text;
              } else {
                  alert("Error: " + status);
