@@ -4,7 +4,7 @@
 <!-- <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyCQ0FX4PX3pqB6lApllDjzjs3JXgBiNHqc"></script>
 <!-- Template Main Javascript File -->
 <script>
     var currentStep = 1;
@@ -116,6 +116,8 @@
 				console.log(hour_date_time);
 				$('#date-time-final').text(hour_date_time);
 				$('#date-time-review').text(hour_date_time);
+
+				getDistance(hour_pickup_address,hour_dropup_address);
 		
 			}else if(trip_type == 2){
 				
@@ -321,6 +323,43 @@
 		  $("#vehicle-pnr-capacity").text(pcapacity);
         });
     });
+
+	function getDistance(origin,destination){
+		alert(origin);
+		alert(destination);
+
+		//var origin = "Bhilai, Chhattisgarh",
+        //     destination = "Raipur, Chhattisgarh",
+             service = new google.maps.DistanceMatrixService();
+         
+         service.getDistanceMatrix(
+             {
+                 origins: [origin],
+                 destinations: [destination],
+                 travelMode: google.maps.TravelMode.DRIVING
+                // avoidHighways: false,
+                // avoidTolls: false
+             }, 
+             callback
+         );
+         
+         function callback(response, status) {
+			console.log(response);
+            // var orig = document.getElementById("orig"),
+               //  dest = document.getElementById("dest"),
+                var dist = document.getElementById("distance");
+                 //duration = document.getElementById("duration");
+         
+             if(status=="OK") {
+                 //dest.value = response.destinationAddresses[0];
+                 //orig.value = response.originAddresses[0];
+                 dist.value = response.rows[0].elements[0].distance.text;
+                 //duration.value = response.rows[0].elements[0].duration.text;
+             } else {
+                 alert("Error: " + status);
+             }
+         }
+	}
 </script>
 
 </html>

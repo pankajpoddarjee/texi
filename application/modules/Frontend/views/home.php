@@ -447,6 +447,10 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div class="col-md-8">                  
                   <div class="row mb-4">
                     <div class="col-sm-6 mb-3 mb-sm-0">
+                      <input type="text" id="weekday_hourly_rate" name="weekday_hourly_rate" value="<?php echo  $vehicles->weekday_hourly_rate; ?>">
+                      <input type="text" id="weekend_hourly_rate" name="weekend_hourly_rate" value="<?php echo  $vehicles->weekend_hourly_rate; ?>">
+                      <input type="text" id="weekday_hourly_minimum" name="weekday_hourly_minimum" value="<?php echo  $vehicles->weekday_hourly_minimum; ?>">
+                      <input type="text" id="distance" name="distance">
                       <h3 class="m-0"><?php echo !empty($vehicles->vehicle_type) ? $vehicles->vehicle_type :''; ?></h3>
                       <p class="mb-2"><small><?php echo !empty($vehicles->make) ? $vehicles->make :''; ?></small></p>
                       <p class="m-0"><i class="la la-user"></i> <?php echo !empty($vehicles->passenger_capacity) ? $vehicles->passenger_capacity :''; ?> Passengers</p>
