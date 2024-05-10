@@ -237,6 +237,11 @@
 					$("#error_message_return_two_passenger_count").show();
 					flag=false;
 				}
+				if ((Date.parse(return_two_pickup_date_time) <= Date.parse(return_one_pickup_date_time))) {
+					//alert("End date should be greater than Start date");
+					$("#error_message_return_two_pickup_date_time_invalid").show();
+					flag=false;
+				}
 				
 				var return_order_type               =      $("#return_order_type").val();
 				var return_one_pickup_date_time     =      $("#return_one_pickup_date_time").val();

@@ -323,8 +323,9 @@ $this->load->view('templates/frontend/main_header', $header);
                     <h3>Round Trip: Return</h3>
                     <div class="form-group">
                       <label>Date & Time</label>
-                      <input type="datetime-local" class="form-control" name="return_two_pickup_date_time" id="return_two_pickup_date_time" onblur="document.querySelector('#error_message_return_two_pickup_date_time').style.display = 'none'">
+                      <input type="datetime-local" class="form-control" name="return_two_pickup_date_time" id="return_two_pickup_date_time" onblur="document.querySelector('#error_message_return_two_pickup_date_time').style.display = 'none'" onchange="document.querySelector('#error_message_return_two_pickup_date_time_invalid').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_pickup_date_time">Please select date & time</div>
+                      <div style="color:red;display:none;" id="error_message_return_two_pickup_date_time_invalid">Return date & time must be later than pick-up date & time</div>
                     </div>
                     <div class="form-group">
                       <div class="d-flex">
@@ -346,7 +347,8 @@ $this->load->view('templates/frontend/main_header', $header);
 
                     <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_two_pickup_address" name="return_two_pickup_address" onfocus="document.querySelector('#error_message_return_two_pickup_address').style.display = 'none'">
-                      <div style="color:red;display:none;" id="error_message_return_two_pickup_address">Please select pickup address</div>
+                      <div style="color:red;display:none;" id="error_message_return_two_pickup_address">Please select pickup address</div> 
+                      
                     </div>
 
                     <div class="form-group text-center">                    
