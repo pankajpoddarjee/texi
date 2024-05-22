@@ -28,10 +28,6 @@ $this->load->view('templates/frontend/main_header', $header);
       </div>
 
         <form id="multi-step-form" name="frm1" method="post" class="multi-step-form">
-          <!--<input type="hidden" id="airport_address" name="airport_address" value="Durg, Chhattisgarh, India">-->
-          <input type="hidden" id="service_fee" name="service_fee" value="<?php echo get_settings_value('tax_rate'); ?>">
-          <input type="hidden" id="system_email" name="system_email" value="<?php echo get_settings_value('email_to'); ?>">
-          <input type="hidden" id="airport_address" name="airport_address" value="Airport Dr, Tullamarine VIC 3045, Australia">
           <div class="step step-1">
             <!-- Step 1 form fields here -->
             <h4>Trip Type</h4>
@@ -104,12 +100,9 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                   </div>
 
-                  <div class="form-group" id="hour_pickup_address_div">                    
+                  <div class="form-group">                    
                     <input type="text" id="hour_pickup_address" name="hour_pickup_address" class="form-control" placeholder="Address" onfocus="document.querySelector('#error_message_hour_pickup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_hour_pickup_address" >Please select pickup address</div>
-                  </div>
-                  <div class="form-group" id="hour_pickup_address_div_dummy"  style="display:none">                    
-                    <input type="text" id="hour_pickup_address_dummy"  class="form-control" disabled>
                   </div>
 
                   <div class="form-group" id="hour-flight-number_address-div" style="display:none">   
@@ -152,12 +145,9 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                   </div>
 
-                  <div class="form-group" id="hour_dropup_address_div">                    
+                  <div class="form-group">                    
                     <input type="text" class="form-control" id="hour_dropup_address" name="hour_dropup_address" placeholder="Address" onfocus="document.querySelector('#error_message_hour_dropup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_hour_dropup_address">Please select drop-off address</div>
-                  </div>
-                  <div class="form-group" id="hour_dropup_address_div_dummy"  style="display:none">                    
-                    <input type="text" id="hour_dropup_address_dummy"  class="form-control" disabled>
                   </div>
 
                   <div class="form-group" id="hour-terminal-div" style="display:none">  
@@ -231,12 +221,9 @@ $this->load->view('templates/frontend/main_header', $header);
                     </div>
                   </div>
 
-                  <div class="form-group" id="one_pickup_address_div">                    
+                  <div class="form-group">                    
                     <input type="text" class="form-control" placeholder="Address" id="one_pickup_address" name="one_pickup_address" onfocus="document.querySelector('#error_message_one_pickup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_one_pickup_address">Please select pickup address</div>
-                  </div>
-                  <div class="form-group" id="one_pickup_address_div_dummy"  style="display:none">                    
-                    <input type="text" id="one_pickup_address_dummy"  class="form-control" disabled>
                   </div>
 
 
@@ -280,13 +267,9 @@ $this->load->view('templates/frontend/main_header', $header);
                       </div>
                     </div>
                   </div>
-                  <div class="form-group" id="one_dropup_address_div">                    
+                  <div class="form-group">                    
                     <input type="text" class="form-control" placeholder="Address" id="one_dropup_address" name="one_dropup_address" onfocus="document.querySelector('#error_message_one_dropup_address').style.display = 'none'">
                     <div style="color:red;display:none;" id="error_message_one_dropup_address">Please select drop-off address</div>
-                  </div>
-
-                  <div class="form-group" id="one_dropup_address_div_dummy"  style="display:none">                    
-                    <input type="text" id="one_dropup_address_dummy"  class="form-control" disabled>
                   </div>
 
                   <div class="form-group" id="one-terminal-div" style="display:none">  
@@ -357,12 +340,9 @@ $this->load->view('templates/frontend/main_header', $header);
                       </div>
                     </div>
 
-                    <div class="form-group" id="return_one_pickup_address_div">                    
+                    <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_one_pickup_address" name="return_one_pickup_address" onfocus="document.querySelector('#error_message_return_one_pickup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_one_pickup_address">Please select pickup address </div>
-                    </div>
-                    <div class="form-group" id="return_one_pickup_address_div_dummy"  style="display:none">                    
-                      <input type="text" id="return_one_pickup_address_dummy"  class="form-control" disabled>
                     </div>
 
 
@@ -406,13 +386,9 @@ $this->load->view('templates/frontend/main_header', $header);
                         </div>
                       </div>
                     </div>
-                    <div class="form-group" id="return_one_dropup_address_div">                    
+                    <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_one_dropup_address" name="return_one_dropup_address" onfocus="document.querySelector('#error_message_return_one_dropup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_one_dropup_address">Please select drop-off address</div>
-                    </div>
-
-                    <div class="form-group" id="return_one_dropup_address_div_dummy"  style="display:none">                    
-                      <input type="text" id="return_one_dropup_address_dummy"  class="form-control" disabled>
                     </div>
 
                     <div class="form-group" id="return-one-terminal-div" style="display:none">  
@@ -466,13 +442,9 @@ $this->load->view('templates/frontend/main_header', $header);
                       </div>
                     </div>
 
-                    <div class="form-group" id="return_two_pickup_address_div">                    
+                    <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_two_pickup_address" name="return_two_pickup_address" onfocus="document.querySelector('#error_message_return_two_pickup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_pickup_address">Please select pickup address</div> 
-                    </div>
-
-                    <div class="form-group" id="return_two_pickup_address_div_dummy"  style="display:none">                    
-                      <input type="text" id="return_two_pickup_address_dummy"  class="form-control" disabled>
                     </div>
 
                     <div class="form-group" id="return-two-flight-number_address-div" style="display:none">   
@@ -514,12 +486,9 @@ $this->load->view('templates/frontend/main_header', $header);
                         </div>
                       </div>
                     </div>
-                    <div class="form-group" id="return_two_dropup_address_div">                    
+                    <div class="form-group">                    
                       <input type="text" class="form-control" placeholder="Address" id="return_two_dropup_address" name="return_two_dropup_address" onfocus="document.querySelector('#error_message_return_two_dropup_address').style.display = 'none'">
                       <div style="color:red;display:none;" id="error_message_return_two_dropup_address">Please select drop-off address</div>
-                    </div>
-                    <div class="form-group" id="return_two_dropup_address_div_dummy"  style="display:none">                    
-                      <input type="text" id="return_two_dropup_address_dummy"  class="form-control" disabled>
                     </div>
 
                     <div class="form-group" id="return-two-terminal-div" style="display:none">  
@@ -609,11 +578,11 @@ $this->load->view('templates/frontend/main_header', $header);
                 <div class="col-md-8">                  
                   <div class="row mb-4">
                     <div class="col-sm-6 mb-3 mb-sm-0">
-                      <input type="hidden" name="cars[]" cid="<?php echo  $vehicles->id; ?>" value="<?php echo  $vehicles->id; ?>">
-                      <input type="hidden" id="choose_your_weekend<?php echo  $vehicles->id; ?>" name="choose_your_weekend" value="<?php echo  $vehicles->choose_your_weekend; ?>">
-                      <input type="hidden" id="weekday_hourly_rate<?php echo  $vehicles->id; ?>" name="weekday_hourly_rate" value="<?php echo  $vehicles->weekday_hourly_rate; ?>">
-                      <input type="hidden" id="weekend_hourly_rate<?php echo  $vehicles->id; ?>" name="weekend_hourly_rate" value="<?php echo  $vehicles->weekend_hourly_rate; ?>">
-                      <input type="hidden" id="trip_rate_per_km<?php echo  $vehicles->id; ?>" name="trip_rate_per_km" value="<?php echo  $vehicles->trip_rate_per_km; ?>">
+                      <input type="text" name="cars[]" cid="<?php echo  $vehicles->id; ?>" value="<?php echo  $vehicles->id; ?>">
+                      <input type="text" id="choose_your_weekend<?php echo  $vehicles->id; ?>" name="choose_your_weekend" value="<?php echo  $vehicles->choose_your_weekend; ?>">
+                      <input type="text" id="weekday_hourly_rate<?php echo  $vehicles->id; ?>" name="weekday_hourly_rate" value="<?php echo  $vehicles->weekday_hourly_rate; ?>">
+                      <input type="text" id="weekend_hourly_rate<?php echo  $vehicles->id; ?>" name="weekend_hourly_rate" value="<?php echo  $vehicles->weekend_hourly_rate; ?>">
+                      <input type="text" id="trip_rate_per_km<?php echo  $vehicles->id; ?>" name="trip_rate_per_km" value="<?php echo  $vehicles->trip_rate_per_km; ?>">
 
                       
 
@@ -709,49 +678,22 @@ $this->load->view('templates/frontend/main_header', $header);
                   <hr>
                   <div class="d-flex justify-content-between align-items-center mb-4">
                     <h5 class="m-0">Additional Trip Info</h5>
-                    <!-- <a href=""><i class="las la-pen-square"></i> Edit</a>               -->
+                    <a href=""><i class="las la-pen-square"></i> Edit</a>              
                   </div>
                   <div class="row">
                     <div class="col-sm-6 col-lg-3 mb-3">
                       <p class="m-0"><small >PASSENGER COUNT</small><br><p id="passenger-count-review">5</p></p>
                     </div>
                     <div class="col-sm-6 col-lg-3 mb-3">
-                      <p class="m-0"><small>PASSENGER CONTACT</small><br><input type="text" name="passenger_contact" id="passenger_contact" class="form-control" style="width:93%"></p>
+                      <p class="m-0"><small>PASSENGER CONTACT</small><br>Lorem ipsum dolor sit</p>
                     </div>
                     <div class="col-sm-6 col-lg-2 mb-3">
-                      <p class="m-0"><small>LUGGAGE COUNT</small><br><input type="number" name="luggage_count" id="luggage_count" min="0" max="5" class="form-control"></p>
+                      <p class="m-0"><small>LUGGAGE COUNT</small><br>1</p>
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-3">
-                      <p class="m-0"><small>TRIP NOTE</small><br><input type="text" name="trip_note" id="trip_note" class="form-control"></p>
+                      <p class="m-0"><small>TRIP NOTE</small><br>Lorem ipsum dolor sit</p>
                     </div>
                   </div>
-
-                  <div class="row">
-                    
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                      <p class="m-0"><small>Baby Seat</small><br>
-                      <select name="baby_seat1" id="baby_seat1" class="form-control">
-                        <option value="">select</option>
-                        <option value="Newborn to 8 months">Newborn to 8 months</option>
-                        <option value="8 months to 4 Years">8 months to 4 Years</option>
-                      </select>
-                      </p>
-                    </div>
-                    
-                    <div class="col-sm-6 col-lg-4 mb-4">
-                      <p class="m-0"><small>Booster seat</small><br>
-                      <select name="booster_seat" id="booster_seat" class="form-control">
-                        <option value="">select</option>
-                        <option value="4">4 Year</option>
-                        <option value="5">5 Year</option>
-                        <option value="6">6 Year</option>
-                        <option value="7">7 Year</option>
-                        <option value="8">8 Year</option>
-                      </select>
-                      </p>
-                    </div>
-                  </div>
-                  <hr>
                   
                 </div>
                   
@@ -776,16 +718,12 @@ $this->load->view('templates/frontend/main_header', $header);
               <div class="col-lg-5">
                 <div class="review-price mb-4">
                   <h5>Price Overview</h5>
-                  <input type="hidden" id="total_fare" name="total_fare">
-                  <input type="hidden" id="total_fare_return" name="total_fare_return">
-                  <input type="hidden" id="service_charge" name="service_charge">
-                  <input type="hidden" id="fare" name="fare">
-                  <input type="hidden" id="fare_return" name="fare_return">
+                  <input type="text" id="fare" name="fare">
+                  <input type="text" id="fare_return" name="fare_return">
                   <p class="mb-2"><b>Trip 1 Pricing</b></p>
-                  <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Promo Code</span><span><input type="text" name="promo_code" id="promo_code" maxlength="6" style="width:45%;float:right"></span></small></p>
                   <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Base Rate</span><span id="vehicle-price-show-review-step">$264.00</span></small></p>
-                  <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Service Fee</span><span id="service_fee_review">$9.24</span></small></p>
-                  <p class="d-flex align-items-center justify-content-between"><span><b>Trip 1 Total</b></span><span id="total_fare_review">$273.24</span></p>                  
+                  <p class="mb-2"><small class="d-flex align-items-center justify-content-between font-16 normal"><span>Service Fee</span><span>$9.24</span></small></p>
+                  <p class="d-flex align-items-center justify-content-between"><span><b>Trip 1 Total</b></span><span><b>$273.24</b></span></p>                  
                   <hr>
                   <h5>Booking Contact</h5>
                   <div class="mb-3">
@@ -812,11 +750,10 @@ $this->load->view('templates/frontend/main_header', $header);
                   </div>
                   <div class="mb-4">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="tc" onclick="document.querySelector('#err_tc').style.display = 'none'">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                         I agree to the <a href="javascript:void(0)">Terms & Conditions</a>
                       </label>
-                      <div style="color:red;display:none;" id="err_tc">Please check Terms & Conditions</div>
                     </div>
                   </div>
                   <div class="mb-4">
@@ -872,13 +809,6 @@ $this->load->view('templates/frontend/footer_scripts', $header);
 					  $("#err_last_name").show();
 					  flag=false;
 				  }
-          if($('input[name="tc"]').is(':checked'))
-          {
-            
-          }else{
-            $("#err_tc").show();
-					  flag=false;
-          }
           if(flag){
             //$('#dvLoading').show();
             var data = $("#multi-step-form").serialize();
@@ -918,7 +848,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('hour_pickup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -927,7 +857,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('hour_dropup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -935,7 +865,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('one_pickup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -944,7 +874,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('one_dropup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
        </script>
@@ -953,7 +883,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('return_one_pickup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -962,7 +892,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('return_one_dropup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
        </script>
@@ -971,7 +901,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('return_two_pickup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
         </script>
@@ -980,7 +910,7 @@ $this->load->view('templates/frontend/footer_scripts', $header);
                function initialize() {
                        var input = document.getElementById('return_two_dropup_address');
                        var autocomplete = new google.maps.places.Autocomplete(input);
-                       autocomplete.setComponentRestrictions({'country': ['AUS']});
+                       autocomplete.setComponentRestrictions({'country': ['ind']});
                }
                google.maps.event.addDomListener(window, 'load', initialize);
        </script>
